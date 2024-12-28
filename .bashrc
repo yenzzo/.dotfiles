@@ -163,3 +163,6 @@ source "$OSH"/oh-my-bash.sh
 
 # Deleting history on startup 
   history -c && history -w
+
+# Print catnap
+# catnap
