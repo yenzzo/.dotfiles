@@ -1,6 +1,9 @@
+" Set leader key to comma
+let mapleader = ","
+
 " Maps
-vnoremap <C-c> "+y
-vnoremap <C-v> "+p
+vnoremap  <leader>y "+y
+vnoremap <leader>p "+p
 
 " vim-plug
 call plug#begin()
@@ -15,3 +18,4 @@ call plug#end()
 set background=dark " or light if you want light mode
 colorscheme rose-pine 
 
+set clipboard=unnamed
