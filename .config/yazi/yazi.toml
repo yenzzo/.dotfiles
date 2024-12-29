@@ -1,0 +1,4 @@
+[opener]
+open = [
+	{ run = 'sxiv "$@"', desc = "Open" },
+]
