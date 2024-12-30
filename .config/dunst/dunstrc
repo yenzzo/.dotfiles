@@ -324,10 +324,11 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#181b1f"
-    foreground = "#fafafa"
-    frame_color = "#e4a0af"
-    timeout = 6
+    background = "#35263d"
+    highlight = "#eb6f92"
+    frame_color = "#eb6f92"
+    default_icon = "dialog-error"
+    format = "<b><span foreground='#eb6f92'>%s</span></b>\n%b"
     # Icon for notifications with normal urgency, uncomment to enable
     #default_icon = /path/to/icon
 
