@@ -397,13 +397,13 @@
   "bar.layouts": {
     "0": {
       "left": [
-        "windowtitle"
+        "windowtitle",
+        "systray"
       ],
       "middle": [
         "media"
       ],
       "right": [
-        "systray",
         "clock"
       ]
     },
@@ -412,21 +412,6 @@
         "dashboard",
         "workspaces",
         "systray"
-      ],
-      "middle": [
-        "media"
-      ],
-      "right": [
-        "volume",
-        "clock",
-        "notifications"
-      ]
-    },
-    "2": {
-      "left": [
-        "dashboard",
-        "workspaces",
-        "windowtitle"
       ],
       "middle": [
         "media"
