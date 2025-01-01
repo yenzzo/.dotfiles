@@ -404,7 +404,8 @@
         "media"
       ],
       "right": [
-        "clock"
+        "clock",
+	"workspaces"
       ]
     },
     "1": {
