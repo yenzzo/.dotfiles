@@ -8,7 +8,7 @@
   "theme.bar.buttons.icon": "#c4a7e7",
   "theme.bar.buttons.text": "#c4a7e7",
   "theme.bar.buttons.hover": "#26233a",
-  "theme.bar.buttons.background": "#21202e",
+  "theme.bar.buttons.background": "#242438",
   "theme.bar.menus.text": "#e0def4",
   "theme.bar.menus.border.color": "#1f1d2e",
   "theme.bar.buttons.media.background": "#21202e",
@@ -370,7 +370,7 @@
   "bar.launcher.autoDetectIcon": false,
   "theme.bar.buttons.dashboard.enableBorder": false,
   "theme.bar.buttons.workspaces.enableBorder": false,
-  "bar.workspaces.show_icons": true,
+  "bar.workspaces.show_icons": false,
   "bar.workspaces.show_numbered": false,
   "bar.workspaces.applicationIconOncePerWorkspace": true,
   "theme.bar.buttons.workspaces.smartHighlight": true,
@@ -439,7 +439,7 @@
     }
   },
   "theme.bar.border.location": "none",
-  "theme.bar.outer_spacing": "0.2em",
+  "theme.bar.outer_spacing": "0.9em",
   "menus.media.displayTime": false,
   "notifications.position": "top",
   "theme.notification.border_radius": "1em",
@@ -476,5 +476,30 @@
   "menus.dashboard.stats.enable_gpu": false,
   "theme.bar.transparent": false,
   "theme.bar.opacity": 100,
-  "theme.bar.buttons.monochrome": false
+  "theme.bar.buttons.monochrome": false,
+  "bar.workspaces.monitorSpecific": true,
+  "bar.workspaces.workspaceMask": false,
+  "bar.workspaces.showWsIcons": false,
+  "bar.workspaces.showApplicationIcons": false,
+  "theme.bar.buttons.workspaces.pill.width": "4em",
+  "theme.bar.buttons.workspaces.pill.active_width": "7em",
+  "theme.bar.buttons.opacity": 100,
+  "theme.bar.buttons.background_opacity": 0,
+  "bar.clock.format": "%a %I:%M %p",
+  "bar.clock.icon": "",
+  "theme.bar.buttons.clock.spacing": "0em",
+  "bar.clock.showIcon": true,
+  "theme.bar.buttons.clock.enableBorder": false,
+  "bar.volume.scrollDown": "hyprpanel vol -2",
+  "bar.volume.scrollUp": "hyprpanel vol +2",
+  "bar.systray.customIcons": {
+    "qBittorrent": {
+      "icon": "󰦗",
+      "color": "#8250DF"
+    }
+  },
+  "theme.bar.buttons.spacing": "0em",
+  "theme.bar.dropdownGap": "2.5em",
+  "theme.bar.buttons.padding_y": "0.2rem",
+  "theme.bar.buttons.padding_x": "0.5rem"
 }
