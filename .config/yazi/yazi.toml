@@ -1,4 +1,8 @@
 [opener]
-open = [
-	{ run = 'sxiv "$@"', desc = "Open" },
+   open = [
+      { run = 'sxiv "$@"', desc = "Open" },
+]
+
+   edit = [
+      { run = 'nvim "$@"', block = true },      
 ]
