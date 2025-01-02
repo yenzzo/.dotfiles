@@ -1,6 +1,6 @@
 [opener]
    open = [
-      { run = 'sxiv "$@"', desc = "Open" },
+      { run = 'sxiv -f "$@"', desc = "Open" },
 ]
 
    edit = [
