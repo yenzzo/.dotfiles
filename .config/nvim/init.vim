@@ -2,8 +2,12 @@
 let mapleader = ","
 
 " Maps
-vnoremap  <leader>y "+y
+vnoremap <leader>y "+y
 vnoremap <leader>p "+p
+map k <Down>
+map j <Up>
+map z <Left>
+map x <Right>
 
 " vim-plug
 call plug#begin()
