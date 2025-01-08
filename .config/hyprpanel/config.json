@@ -405,7 +405,7 @@
       ],
       "right": [
         "clock",
-	"workspaces"
+        "workspaces"
       ]
     },
     "1": {
@@ -436,7 +436,7 @@
   "menus.clock.time.military": false,
   "menus.clock.weather.location": "Los Angeles",
   "menus.clock.weather.unit": "metric",
-  "menus.dashboard.powermenu.avatar.image": "/home/lainux/Pictures/pfps/normal/animanga/osaka.jpg",
+  "menus.dashboard.powermenu.avatar.image": "/home/lainux/Pictures/pfps/normal/animanga/near_3.jpg",
   "theme.bar.menus.menu.dashboard.profile.size": "8.5em",
   "theme.bar.menus.menu.dashboard.profile.radius": "10em",
   "menus.dashboard.shortcuts.left.shortcut1.icon": "󰈹",
@@ -487,5 +487,6 @@
   "theme.bar.buttons.spacing": "0em",
   "theme.bar.dropdownGap": "2.5em",
   "theme.bar.buttons.padding_y": "0.2rem",
-  "theme.bar.buttons.padding_x": "0.5rem"
+  "theme.bar.buttons.padding_x": "0.5rem",
+  "bar.media.show_active_only": true
 }
