@@ -410,9 +410,7 @@
     },
     "1": {
       "left": [
-        "dashboard",
-        "workspaces",
-        "systray"
+        "workspaces"
       ],
       "middle": [
         "media"
@@ -420,7 +418,9 @@
       "right": [
         "volume",
         "clock",
-        "notifications"
+        "notifications",
+	"dashboard",
+	"systray"
       ]
     }
   },
