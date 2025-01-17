@@ -6,3 +6,12 @@
    edit = [
       { run = 'nvim "$@"', block = true },      
 ]
+
+   pdf = [
+      { run = 'mupdf "$@"', desc = "Open" },
+] 
+
+[open]
+prepend_rules = [
+   { name = "*.pdf", use = [ "pdf" ] },
+]
