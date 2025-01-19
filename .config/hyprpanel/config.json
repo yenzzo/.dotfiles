@@ -2,7 +2,7 @@
   "bar.customModules.updates.pollingInterval": 1440000,
   "wallpaper.pywal": false,
   "theme.bar.menus.background": "#191724",
-  "theme.bar.background": "#191724",
+  "theme.bar.background": "#191624",
   "theme.bar.buttons.media.icon": "#c4a7e7",
   "theme.bar.buttons.media.text": "#c4a7e7",
   "theme.bar.buttons.icon": "#c4a7e7",
@@ -219,7 +219,7 @@
   "theme.bar.buttons.network.background": "#21202e",
   "theme.bar.buttons.volume.icon": "#e4a0af",
   "theme.bar.buttons.volume.text": "#e4a0af",
-  "theme.bar.buttons.volume.background": "#21202e",
+  "theme.bar.buttons.volume.background": "#242438",
   "theme.bar.buttons.windowtitle.icon": "#c4a7e7",
   "theme.bar.buttons.windowtitle.text": "#c4a7e7",
   "theme.bar.buttons.windowtitle.background": "#21202e",
@@ -227,9 +227,9 @@
   "theme.bar.buttons.workspaces.occupied": "#c4a7e7",
   "theme.bar.buttons.workspaces.available": "#9ccfd8",
   "theme.bar.buttons.workspaces.hover": "#26233a",
-  "theme.bar.buttons.workspaces.background": "#21202e",
-  "theme.bar.buttons.dashboard.icon": "#c3c0d1",
-  "theme.bar.buttons.dashboard.background": "#21202e",
+  "theme.bar.buttons.workspaces.background": "#242438",
+  "theme.bar.buttons.dashboard.icon": "#e59797",
+  "theme.bar.buttons.dashboard.background": "#242438",
   "theme.osd.label": "#c4a7e7",
   "theme.osd.icon": "#191724",
   "theme.osd.bar_overflow_color": "#eb6f92",
@@ -248,7 +248,7 @@
   "theme.notification.actions.background": "#c4a7e7",
   "theme.notification.background": "#1f1d2e",
   "theme.bar.buttons.workspaces.numbered_active_highlighted_text_color": "#181825",
-  "theme.bar.buttons.workspaces.numbered_active_underline_color": "#c678dd",
+  "theme.bar.buttons.workspaces.numbered_active_underline_color": "#191624",
   "theme.bar.menus.menu.media.card.color": "#21202e",
   "theme.bar.menus.check_radio_button.background": "#393452",
   "theme.bar.menus.check_radio_button.active": "#c4a7e7",
@@ -324,17 +324,17 @@
   "theme.bar.buttons.modules.storage.border": "#eb6f92",
   "theme.bar.buttons.modules.cpu.border": "#eb6f92",
   "theme.bar.buttons.modules.ram.border": "#f6c177",
-  "theme.bar.buttons.notifications.border": "#c4a7e7",
-  "theme.bar.buttons.clock.border": "#c4a7e7",
+  "theme.bar.buttons.notifications.border": "#191624",
+  "theme.bar.buttons.clock.border": "#191624",
   "theme.bar.buttons.battery.border": "#f6c177",
   "theme.bar.buttons.systray.border": "#26233a",
   "theme.bar.buttons.bluetooth.border": "#9ccfd8",
   "theme.bar.buttons.network.border": "#c4a7e7",
-  "theme.bar.buttons.volume.border": "#e4a0af",
-  "theme.bar.buttons.media.border": "#c4a7e7",
+  "theme.bar.buttons.volume.border": "#191624",
+  "theme.bar.buttons.media.border": "#b4befe",
   "theme.bar.buttons.windowtitle.border": "#c4a7e7",
-  "theme.bar.buttons.workspaces.border": "#1f1d2e",
-  "theme.bar.buttons.dashboard.border": "#e4a0b0",
+  "theme.bar.buttons.workspaces.border": "#191624",
+  "theme.bar.buttons.dashboard.border": "#191624",
   "theme.bar.buttons.modules.submap.background": "#21202e",
   "theme.bar.buttons.modules.submap.text": "#9ccfd8",
   "theme.bar.buttons.modules.submap.border": "#9ccfd8",
@@ -413,14 +413,13 @@
         "workspaces"
       ],
       "middle": [
-        "media"
-      ],
-      "right": [
         "volume",
         "clock",
-        "notifications",
-	"dashboard",
-	"systray"
+        "notifications"
+      ],
+      "right": [
+        "dashboard",
+        "systray"
       ]
     }
   },
@@ -488,9 +487,9 @@
       "color:": "#E4A2B0"
     }
   },
-  "theme.bar.buttons.spacing": "0.3em",
+  "theme.bar.buttons.spacing": "-0.1em",
   "theme.bar.dropdownGap": "2.5em",
-  "theme.bar.buttons.padding_y": "0.2rem",
+  "theme.bar.buttons.padding_y": "0.1rem",
   "theme.bar.buttons.padding_x": "0.5rem",
   "bar.media.show_active_only": true,
   "theme.bar.menus.monochrome": false,
@@ -498,6 +497,7 @@
   "wallpaper.enable": false,
   "theme.bar.menus.card_radius": "0.4em",
   "theme.bar.buttons.volume.spacing": "0.5em",
-  "theme.bar.buttons.radius": "0.9em",
-  "theme.bar.menus.menu.media.card.tint": 85
+  "theme.bar.buttons.radius": "0.6em",
+  "theme.bar.menus.menu.media.card.tint": 85,
+  "theme.bar.buttons.y_margins": "0.1em"
 }
