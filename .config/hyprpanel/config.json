@@ -401,10 +401,9 @@
         "systray"
       ],
       "middle": [
-        "media"
+        "volume"
       ],
       "right": [
-        "clock",
         "workspaces"
       ]
     },
@@ -413,8 +412,7 @@
         "workspaces"
       ],
       "middle": [
-        "volume",
-        "clock",
+	"clock",
         "notifications"
       ],
       "right": [
