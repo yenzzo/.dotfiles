@@ -164,8 +164,8 @@ source "$OSH"/oh-my-bash.sh
 # Deleting history on startup 
   history -c && history -w
 
-# Print catnap
-# catnap
-
 # Enabling extglob
   shopt -s extglob
+
+# Kitty TERM
+  export TERM=xterm-kitty
