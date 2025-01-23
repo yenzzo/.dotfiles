@@ -365,16 +365,16 @@
   "theme.bar.location": "top",
   "bar.autoHide": "never",
   "theme.bar.buttons.enableBorders": true,
-  "theme.bar.buttons.borderSize": "0.2em",
+  "theme.bar.buttons.borderSize": "0.12em",
   "theme.bar.layer": "top",
   "bar.launcher.autoDetectIcon": false,
   "theme.bar.buttons.dashboard.enableBorder": false,
   "theme.bar.buttons.workspaces.enableBorder": true,
   "bar.workspaces.show_icons": false,
-  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.show_numbered": true,
   "bar.workspaces.applicationIconOncePerWorkspace": true,
   "theme.bar.buttons.workspaces.smartHighlight": true,
-  "bar.workspaces.spacing": 0.6,
+  "bar.workspaces.spacing": 0.4,
   "scalingPriority": "both",
   "theme.bar.scaling": 65,
   "theme.notification.scaling": 60,
@@ -470,8 +470,8 @@
   "theme.bar.buttons.clock.spacing": "0em",
   "bar.clock.showIcon": true,
   "theme.bar.buttons.clock.enableBorder": false,
-  "bar.volume.scrollDown": "hyprpanel vol -2",
-  "bar.volume.scrollUp": "hyprpanel vol +2",
+  "bar.volume.scrollDown": "hyprpanel vol -1",
+  "bar.volume.scrollUp": "hyprpanel vol +1",
   "bar.systray.customIcons": {
     "qBittorrent": {
       "icon": "󰦗",
@@ -503,5 +503,10 @@
   "theme.bar.buttons.systray.enableBorder": false,
   "theme.bar.menus.border.size": "0.13em",
   "theme.bar.menus.border.radius": "0.7em",
-  "theme.bar.menus.buttons.radius": "0.4em"
+  "theme.bar.menus.buttons.radius": "0.4em",
+  "bar.volume.label": false,
+  "theme.bar.buttons.volume.enableBorder": false,
+  "bar.launcher.icon": "",
+  "tear": false,
+  "menus.transition": "crossfade"
 }
