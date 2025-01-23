@@ -228,7 +228,7 @@
   "theme.bar.buttons.workspaces.available": "#9ccfd8",
   "theme.bar.buttons.workspaces.hover": "#26233a",
   "theme.bar.buttons.workspaces.background": "#191624",
-  "theme.bar.buttons.dashboard.icon": "#e59797",
+  "theme.bar.buttons.dashboard.icon": "#c4a7e7",
   "theme.bar.buttons.dashboard.background": "#191624",
   "theme.osd.label": "#c4a7e7",
   "theme.osd.icon": "#191724",
@@ -368,7 +368,7 @@
   "theme.bar.buttons.borderSize": "0.12em",
   "theme.bar.layer": "top",
   "bar.launcher.autoDetectIcon": false,
-  "theme.bar.buttons.dashboard.enableBorder": false,
+  "theme.bar.buttons.dashboard.enableBorder": true,
   "theme.bar.buttons.workspaces.enableBorder": true,
   "bar.workspaces.show_icons": false,
   "bar.workspaces.show_numbered": true,
@@ -506,7 +506,7 @@
   "theme.bar.menus.buttons.radius": "0.4em",
   "bar.volume.label": false,
   "theme.bar.buttons.volume.enableBorder": false,
-  "bar.launcher.icon": "",
+  "bar.launcher.icon": "⭘",
   "tear": false,
   "menus.transition": "crossfade"
 }
