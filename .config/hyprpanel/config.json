@@ -344,7 +344,7 @@
   "theme.bar.menus.menu.network.switch.disabled": "#1f1d2e",
   "theme.bar.menus.menu.network.switch.puck": "#26233a",
   "theme.bar.buttons.systray.customIcon": "#e0def4",
-  "theme.bar.border.color": "#c4a7e7",
+  "theme.bar.border.color": "#e4a2af",
   "theme.bar.menus.menu.media.timestamp": "#e0def4",
   "theme.bar.buttons.borderColor": "#c4a7e7",
   "theme.bar.buttons.modules.hyprsunset.icon": "#f6c177",
@@ -361,7 +361,7 @@
   "theme.bar.menus.menu.bluetooth.scroller.color": "#9ccfd8",
   "theme.font.name": "Hurmit Nerd Font",
   "theme.font.label": "Hurmit Nerd Font",
-  "theme.bar.floating": false,
+  "theme.bar.floating": true,
   "theme.bar.location": "top",
   "bar.autoHide": "never",
   "theme.bar.buttons.enableBorders": true,
@@ -418,7 +418,7 @@
       ]
     }
   },
-  "theme.bar.border.location": "none",
+  "theme.bar.border.location": "full",
   "theme.bar.outer_spacing": "0.9em",
   "menus.media.displayTime": false,
   "notifications.position": "top",
@@ -508,5 +508,7 @@
   "theme.bar.buttons.volume.enableBorder": false,
   "bar.launcher.icon": "⭘",
   "tear": false,
-  "menus.transition": "crossfade"
+  "menus.transition": "crossfade",
+  "theme.bar.border_radius": "0.8em",
+  "theme.bar.border.width": "0.2em"
 }
