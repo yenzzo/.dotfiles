@@ -125,4 +125,3 @@ source $ZSH/oh-my-zsh.sh
 
 # Zoxide
 eval "$(zoxide init zsh)"
-
