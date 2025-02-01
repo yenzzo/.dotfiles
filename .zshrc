@@ -103,9 +103,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Zoxide
-eval "$(zoxide init zsh)"
-
 # Aliases
   alias q='exit'
   alias fontquery='fc-list : family | sort | uniq'
@@ -125,3 +122,7 @@ eval "$(zoxide init zsh)"
 
 # Deleting history on startup 
   :>.zsh_history
+
+# Zoxide
+eval "$(zoxide init zsh)"
+
