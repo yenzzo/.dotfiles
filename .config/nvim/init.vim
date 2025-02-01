@@ -22,4 +22,4 @@ call plug#end()
 set background=dark " or light if you want light mode
 colorscheme gruvbox 
 
-set clipboard+=unnamedplus
+set clipboard+=unnamed
