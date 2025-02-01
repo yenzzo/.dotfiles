@@ -144,9 +144,6 @@ source "$OSH"/oh-my-bash.sh
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
 
-# Zoxide setup
-  eval "$(zoxide init bash)"
-
 # Aliases
   alias q='exit'
   alias fontquery='fc-list : family | sort | uniq'
@@ -169,3 +166,7 @@ source "$OSH"/oh-my-bash.sh
 
 # Kitty TERM
   export TERM=xterm-kitty
+
+# Zoxide setup
+  eval "$(zoxide init bash)"
+
