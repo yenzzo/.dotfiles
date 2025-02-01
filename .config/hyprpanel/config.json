@@ -363,7 +363,7 @@
   "theme.font.label": "Hurmit Nerd Font",
   "theme.bar.floating": true,
   "theme.bar.location": "top",
-  "bar.autoHide": "never",
+  "bar.autoHide": "fullscreen",
   "theme.bar.buttons.enableBorders": true,
   "theme.bar.buttons.borderSize": "0.13em",
   "theme.bar.layer": "top",
