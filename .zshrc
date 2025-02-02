@@ -123,5 +123,7 @@ source $ZSH/oh-my-zsh.sh
 # Deleting history on startup 
   :>.zsh_history
 
+. "$HOME/.cargo/env"
+
 # Zoxide
 eval "$(zoxide init zsh)"
