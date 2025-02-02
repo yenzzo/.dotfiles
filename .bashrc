@@ -170,3 +170,4 @@ source "$OSH"/oh-my-bash.sh
 # Zoxide setup
   eval "$(zoxide init bash)"
 
+. "$HOME/.cargo/env"
