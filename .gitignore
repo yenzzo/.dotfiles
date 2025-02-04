@@ -1,3 +1,6 @@
 # Newsboat
 /.newsboat/cache.db
+/.newsboat/history.search
+
+# Zsh
 .zsh_history
