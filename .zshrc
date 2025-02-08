@@ -125,5 +125,8 @@ source $ZSH/oh-my-zsh.sh
 
 . "$HOME/.cargo/env"
 
+# Enable extended globbing for the current session
+setopt extended_glob 
+
 # Zoxide
 eval "$(zoxide init zsh)"
