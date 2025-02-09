@@ -1,2 +1,6 @@
 directory: ~/music
 library: ~/data/musiclibrary.db
+
+# Configuration
+import:
+    move: yes
