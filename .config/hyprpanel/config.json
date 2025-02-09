@@ -488,7 +488,7 @@
   "wallpaper.enable": false,
   "theme.bar.menus.card_radius": "0.4em",
   "theme.bar.buttons.volume.spacing": "0.5em",
-  "theme.bar.buttons.radius": "0.8em",
+  "theme.bar.buttons.radius": "0.4em",
   "theme.bar.menus.menu.media.card.tint": 85,
   "theme.bar.buttons.y_margins": "0.2em",
   "bar.scrollSpeed": 2,
