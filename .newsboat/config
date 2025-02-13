@@ -1,2 +1,2 @@
-include ~/.newsboat/dracula
+include ~/.newsboat/gruvbox
 browser librewolf
