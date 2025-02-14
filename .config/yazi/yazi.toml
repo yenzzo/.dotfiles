@@ -7,11 +7,13 @@
       { run = 'nvim "$@"', block = true },      
 ]
 
-   pdf = [
-      { run = 'mupdf "$@"', desc = "Open" },
+   read = [
+      { run = 'zathura "$@"', desc = "Open" },
 ] 
 
 [open]
 prepend_rules = [
-   { name = "*.pdf", use = [ "pdf" ] },
+   { name = "*.pdf", use = [ "read" ] },
+   { name = "*.epub", use = [ "read" ] },
+
 ]
