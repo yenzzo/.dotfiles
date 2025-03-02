@@ -371,7 +371,7 @@
   "theme.bar.buttons.dashboard.enableBorder": false,
   "theme.bar.buttons.workspaces.enableBorder": true,
   "bar.workspaces.show_icons": false,
-  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.show_numbered": true,
   "bar.workspaces.applicationIconOncePerWorkspace": true,
   "theme.bar.buttons.workspaces.smartHighlight": true,
   "bar.workspaces.spacing": 0.4,
