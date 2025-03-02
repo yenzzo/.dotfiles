@@ -130,3 +130,5 @@ setopt extended_glob
 
 # Zoxide
 eval "$(zoxide init zsh)"
+
+export PATH=$PATH:/home/lainux/.spicetify
