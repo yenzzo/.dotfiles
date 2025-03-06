@@ -128,7 +128,7 @@ source $ZSH/oh-my-zsh.sh
 # Enable extended globbing for the current session
 setopt extended_glob 
 
+export PATH=$PATH:/home/lainux/.spicetify
+
 # Zoxide
 eval "$(zoxide init zsh)"
-
-export PATH=$PATH:/home/lainux/.spicetify
