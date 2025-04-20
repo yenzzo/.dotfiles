@@ -125,8 +125,9 @@ source $ZSH/oh-my-zsh.sh
 
 . "$HOME/.cargo/env"
 
-# Enable extended globbing for the current session
-setopt extended_glob 
+# Enable extended globbing and ksh_glob for the current session
+setopt extended_glob
+setopt ksh_glob
 
 export PATH=$PATH:/home/lainux/.spicetify
 
