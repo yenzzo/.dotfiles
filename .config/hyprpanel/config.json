@@ -514,5 +514,5 @@
   "theme.bar.buttons.modules.cava.border": "#8ec07c",
   "menus.dashboard.shortcuts.enabled": false,
   "menus.dashboard.stats.enabled": false,
-  "menus.dashboard.controls.enabled": false
+  "menus.dashboard.controls.enabled": true 
 }
