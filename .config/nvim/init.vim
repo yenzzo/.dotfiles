@@ -16,6 +16,6 @@ call plug#end()
 
 " Gruvbox config
 set background=dark " or light if you want light mode
-colorscheme gruvbox 
+colorscheme rose-pine 
 
 set clipboard+=unnamed
