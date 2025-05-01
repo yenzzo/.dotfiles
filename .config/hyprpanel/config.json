@@ -361,7 +361,7 @@
   "theme.bar.menus.menu.bluetooth.scroller.color": "#83a598",
   "theme.font.name": "Hurmit Nerd Font",
   "theme.font.label": "Hurmit Nerd Font",
-  "theme.bar.floating": true,
+  "theme.bar.floating": false,
   "theme.bar.location": "top",
   "bar.autoHide": "fullscreen",
   "theme.bar.buttons.enableBorders": false,
@@ -397,10 +397,11 @@
   "bar.layouts": {
     "0": {
       "left": [
-        "systray",
+        "systray"
+      ],
+      "middle": [
         "volume"
       ],
-      "middle": [],
       "right": [
         "workspaces"
       ]
@@ -505,14 +506,14 @@
   "bar.launcher.icon": "⭘",
   "tear": false,
   "menus.transition": "crossfade",
-  "theme.bar.border_radius": "0.3em",
+  "theme.bar.border_radius": "0.2em",
   "theme.bar.border.width": "0.2em",
   "theme.bar.buttons.modules.cava.text": "#8ec07c",
   "theme.bar.buttons.modules.cava.background": "#282828",
   "theme.bar.buttons.modules.cava.icon_background": "#282828",
   "theme.bar.buttons.modules.cava.icon": "#8ec07c",
   "theme.bar.buttons.modules.cava.border": "#8ec07c",
-  "menus.dashboard.shortcuts.enabled": false,
+  "menus.dashboard.shortcuts.enabled": true,
   "menus.dashboard.stats.enabled": false,
-  "menus.dashboard.controls.enabled": true 
+  "menus.dashboard.controls.enabled": false
 }
