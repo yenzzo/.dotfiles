@@ -131,5 +131,9 @@ setopt ksh_glob
 
 export PATH=$PATH:/home/lainux/.spicetify
 
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export GTK_IM_MODULE=fcitx
+
 # Zoxide
 eval "$(zoxide init zsh)"
