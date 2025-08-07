@@ -10,7 +10,6 @@ call plug#begin()
 
 " List your plugins here
 Plug 'ellisonleao/gruvbox.nvim'
-Plug 'rose-pine/neovim'
 
 call plug#end()
 
