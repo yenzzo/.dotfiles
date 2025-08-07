@@ -3,9 +3,11 @@
 	"mode": "dock",
 	"position": "top",
 	"spacing": 4,
+	"height": 20,
 	// Order of the modules
 	"modules-left": [
-	    "hyprland/workspaces"
+	   // "hyprland/workspaces"
+	   "tray"
 	],
 	"modules-center": [
 	    "custom/playerctl"
@@ -36,5 +38,26 @@
 	    "locale": "en_US.UTF-8",
 	    "timezone": "America/Sao_Paulo",
 	    "format": "{:%a %I:%M}"
+	},
+
+	"hyprland/workspaces": {
+           "format": "{icon}",
+             "on-click": "activate",
+             "format-icons": {
+             "1": "",
+             "2": "",
+             "3": "",
+             "4": "",
+             "5": "",
+             "urgent": "",
+             "active": "⊛",
+             "default": ""
+	},
+	"sort-by-number": true
+	},
+
+	"tray": {
+            "icon-size": 20, 
+	    "spacing": 5 
 	}
     }
