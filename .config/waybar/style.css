@@ -1,7 +1,7 @@
 * {
   border: none;
-  border-radius: 8px;
-  font-family: Hurmit Nerd Font;
+  border-radius: 6px;
+  font-family: CaskaydiaCove Nerd Font;
   font-weight: 800;
   font-size: 13px;
   min-height: 0;
@@ -89,7 +89,7 @@ tooltip {
   border-style: solid;
   border-color: #ebdbb2;
   margin-right: 4px;
-  margin-left: 4px;
+  margin-left: 10px;
   padding-right: 8px;
   padding-left: 9px;
   padding-top: 2px;
@@ -167,6 +167,8 @@ tooltip {
   border-width: 2px;
   border-style: solid;
   border-color: #ebdbb2;
+  margin-right: 10px;
+
 }
 
 #network {
