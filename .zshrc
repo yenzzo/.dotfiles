@@ -106,6 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
   alias q='exit'
   alias fontquery='fc-list : family | sort | uniq'
+  alias packettracerfix="QT_QPA_PLATFORM=xcb packettracer --no-sandbox"
 
 # Yazi shell wrapper
    function yy() {
