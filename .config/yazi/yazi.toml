@@ -1,9 +1,9 @@
 [opener]
-   open = [
+   open_image = [
       { run = 'feh "$@"', desc = "Open", orphan = true },
 ]
 
-   edit = [
+   edit_text = [
       { run = 'nvim "$@"', block = true, orphan = true },      
 ]
 
@@ -15,11 +15,15 @@
       { run = 'mpv "$@"', orphan = true },
    ]
 
+  open_link = [
+      { run = 'librewolf "$@"', orphan = true}
+   ]
+
 [open]
 prepend_rules = [
    { name = "*.pdf", use = [ "read" ] },
    { name = "*.epub", use = [ "read" ] },
    { name = "*.gif", use = [ "play" ] },
-
+   { name = "*.html", use = [ "open_link" ] },
 
 ]
