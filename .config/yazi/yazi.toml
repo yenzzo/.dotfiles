@@ -3,11 +3,11 @@
       { run = 'feh "$@"', desc = "Open", orphan = true },
 ]
 
-   edit_text = [
+   edit_file = [
       { run = 'nvim "$@"', block = true, orphan = true },      
 ]
 
-   read = [
+   read-1 = [
       { run = 'zathura "$@"', desc = "Open", orphan = true },
 ] 
 
@@ -21,9 +21,10 @@
 
 [open]
 prepend_rules = [
-   { name = "*.pdf", use = [ "read" ] },
-   { name = "*.epub", use = [ "read" ] },
-   { name = "*.gif", use = [ "play" ] },
-   { name = "*.html", use = [ "open_link" ] },
+   { url = "*.pdf", use = [ "read-1" ] },
+   { url = "*.epub", use = [ "read-1" ] },
+   { url = "*.gif", use = [ "play" ] },
+   { url = "*.html", use = [ "open_link" ] },
+   { url = "*.toml", use = [ "edit_file" ] }
 
 ]
