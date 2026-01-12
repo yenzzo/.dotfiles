@@ -6,6 +6,12 @@
 // Input device configuration.
 // Find the full list of options on the wiki:
 // https://yalter.github.io/niri/Configuration:-Input
+
+//environment variables
+environment {
+  QT_QPA_PLATFORMTHEME "qt5ct"
+}
+
 input {
     keyboard {
         xkb {
@@ -193,6 +199,7 @@ binds {
     Mod+O repeat=false { toggle-overview; }
     Mod+W repeat=false { close-window; }
 
+    // moving between workspaces and windows and columns
     Mod+H     { focus-column-left; }
     Mod+J     { focus-window-down; }
     Mod+K     { focus-window-up; }
@@ -200,10 +207,13 @@ binds {
     Mod+U     { focus-workspace-down; }
     Mod+I     { focus-workspace-up; }
 
+    // moving columns and workspaces and windows (keyboard)
     Mod+Ctrl+H     { move-column-left; }
     Mod+Ctrl+J     { move-window-down; }
     Mod+Ctrl+K     { move-window-up; }
     Mod+Ctrl+L     { move-column-right; }
+    Mod+Ctrl+U     { move-column-to-workspace-down; }
+    Mod+Ctrl+I     { move-column-to-workspace-up; }
 
     Mod+WheelScrollDown      cooldown-ms=150 { focus-workspace-down; }
     Mod+WheelScrollUp        cooldown-ms=150 { focus-workspace-up; }
