@@ -1,26 +1,52 @@
 {
-  "layer": "top",
-  "position": "top",
-  "height": 12,
-  "modules-left": [
-    "hyprland/workspaces",
-  ],
-  "modules-center": ["clock"],
-  "modules-right": [
-    "cpu",
-    "memory",
-    "tray"
-  ],
+    "height": 40,
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
 
-  "hyprland/workspaces": {
-    "disable-scroll": true
-  },  
+    "modules-left": ["custom/arch", "niri/workspaces", "niri/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray"],
 
-  "clock": {
-    "format": " {:%I:%M}",
-    "format-alt": "{:%A, %d %b, %Y}",
-    "tooltip-format": "<tt><small>{calendar}</small></tt>",
-    "calendar": {
+    "niri/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "focused": "󱓻",
+            "default": "󱓼"
+        }
+    },
+
+    "niri/window": {
+        "rewrite": {
+            "": "niri"
+        }
+    },
+
+    "custom/arch": {
+        "format": "󰣇",
+        "tooltip-format": "this is arch btw"
+    },
+
+    "network": {
+    "format-wifi": " ",
+    "format-ethernet": "󰈀",
+    "format-linked": "",
+    "format-disconnected": "⚠ ",
+    "tooltip-format": "{essid}\n{ipaddr}/{cidr}",
+    "tooltip": true,
+    "on-click": "kitty -e nmtui"
+  },
+
+    "niri/language": {
+        "format": "󰣩 {}"
+    },
+
+       
+    "clock": {
+      "format": " {:%I:%M}",
+      "format-alt": "{:%A, %d %b, %Y}",
+      "tooltip-format": "<tt><small>{calendar}</small></tt>",
+      "calendar": {
       "mode": "month",
       "mode-mon-col": 3,
       "weeks-pos": "left",
@@ -40,9 +66,9 @@
     },
   },
 
-  "pulseaudio": {
+   "pulseaudio": {
     "scroll-step": 1,
-    "format": "{volume}% {icon} {format_source}",
+    "format": "{icon}  {volume}%",
     "format-bluetooth": "{volume}% {icon} {format_source}",
     "format-bluetooth-muted": "<span foreground='#ea6962'>  {format_source}</span>",
     "format-muted": "<span foreground='#ea6962'> </span> {format_source}",
@@ -55,155 +81,7 @@
     },
     "tooltip": false,
     "on-click": "pavucontrol",
-  },
+  }, 
 
-  "network": {
-    "format-wifi": " ",
-    "format-ethernet": " ",
-    "format-linked": " ",
-    "format-disconnected": "⚠ ",
-    "tooltip-format": "{essid}\n{ipaddr}/{cidr}",
-    "tooltip": true,
-    "on-click": "alacritty -e nmtui"
-  },
-
-  "cpu": {
-    "format": "{usage}%  ",
-    "states": {
-      "warning": 60,
-      "critical": 80
-    },
-    "tooltip": false,
-    "on-click": "kitty -e btop"
-  },
-
-  "memory": {
-    "tooltip": true,
-    "format": "{}% 󰍛",
-    "states": {
-      "warning": 60,
-      "critical": 80
-    },
-    "tooltip-format": "RAM: {used}GB/{total}GB\nSwap: {swapUsed}GB/{swapAvail}GB",
-  },
-
-  "temperature": {
-    "tooltip": false,
-    "critical-threshold": 80,
-    "format": "{temperatureC}°{icon}",
-    "format-icons": ["", "", ""]
-  },
-
-  "backlight": {
-    "tooltip": false,
-    "format": "{percent}% {icon}",
-    "format-icons": ["󰃞 ", "󰃟 ", "󰃠 "]
-  },
-
-  "battery#bat1": {
-      "bat": "BAT0",
-      "adapter": "AC",
-      "interval": 10,
-      "full-at": 99,
-      "states": {
-          "full": 100,
-          "good": 99,
-          "empty": 5
-      },
-      "format": "{icon} {capacity}%",
-      "format-charging": " {capacity}%",
-      "format-plugged": " {capacity}%",
-      "format-empty": " {capacity}%",
-      "format-full": " {capacity}%",
-      "format-icons": [
-          "", 
-          "",  
-          "",  
-          "",  
-          ""   
-      ]
-  },
-
-  "battery#bat2": {
-      "bat": "BAT1",
-      "adapter": "AC",
-      "interval": 10,
-      "full-at": 99,
-      "states": {
-          "full": 100,
-          "good": 99,
-          "empty": 5
-      },
-      "format": "{icon} {capacity}%",
-      "format-charging": " {capacity}%",
-      "format-plugged": " {capacity}%",
-      "format-empty": " {capacity}%",
-      "format-full": " {capacity}%",
-      "format-icons": [
-          "", 
-          "",  
-          "", 
-          "",  
-          ""  
-      ]
-  },
-
-
-//  "custom/notification": {
-//    "tooltip": false,
-//    "format": "{icon}",
-//    "format-icons": {
-//      "notification": " ",
-//      "none": "  ",
-//      "dnd-notification": "<span foreground='#ea6962'></span>",
-//      "dnd-none": "<span foreground='#ea6962'> </span>",
-//      "inhibited-notification": " ",
-//      "inhibited-none": " ",
-//      "dnd-inhibited-notification": "<span foreground='#ea6962'> </span>",
-//      "dnd-inhibited-none": "<span foreground='#ea6962'> </span>"
-//    },
-//    "return-type": "json",
-//    "exec-if": "which swaync-client",
-//    "exec": "swaync-client -swb",
-//    "on-click": "swaync-client -t -sw",
-//    "on-click-right": "swaync-client -d -sw",
-//    "escape": true
-//  },
-
-  "tray": {
-    "tooltip": false,
-    "spacing": 5
-  },
-
-  "custom/arrow-light-on-bg-left": {
-    "tooltip": false,
-    "format": ""
-  },
-
-  "custom/arrow-dark-on-light-left": {
-    "tooltip": false,
-    "format": ""
-  },
-
-  "custom/arrow-light-on-dark-left": {
-    "tooltip": false,
-    "format": ""
-  },
-
-  "custom/arrow-light-on-bg-right": {
-    "tooltip": false,
-    "format": ""
-  },
-
-  "custom/arrow-dark-on-light-right": {
-    "tooltip": false,
-    "format": ""
-  },
-
-  "custom/arrow-light-on-dark-right": {
-    "tooltip": false,
-    "format": ""
-  }
 }
-
 
