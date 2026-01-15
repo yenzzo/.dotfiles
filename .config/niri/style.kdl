@@ -1,0 +1,93 @@
+// this file contains all style configurations (animations, decorations, colours etc.)
+
+// layout
+layout {
+    gaps 16
+    center-focused-column "on-overflow"
+    background-color "transparent"
+
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.7
+    }
+
+    default-column-width {
+       proportion 0.5;
+    }
+
+    focus-ring {
+        off
+        width 2 
+        active-color "#EBDBB2"
+        urgent-color "#CC241D"
+        inactive-color "#32302F"
+    }
+
+    border {
+        on
+        width 2 
+        active-color "#EBDBB2"
+        inactive-color "#32302F"
+        urgent-color "#CC241D"
+    }
+
+    shadow {
+        on
+        softness 15 
+        spread 3 
+        offset x=3 y=5
+        color "#282828"
+        inactive-color "#3C3836"
+        draw-behind-window true
+    }
+
+   struts {
+   }
+}
+
+// animations
+animations {
+    workspace-switch {
+        spring damping-ratio=1.0 stiffness=1000 epsilon=0.0001
+    }
+
+    window-open {
+		duration-ms 300
+		curve "cubic-bezier" 0.16 1 0.3 1
+	}
+
+    window-close {
+		duration-ms 350
+		curve "cubic-bezier" 0.16 1 0.3 1
+	}
+    
+    horizontal-view-movement {
+        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
+    }
+
+    window-movement {
+        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
+    }
+
+    window-resize {
+        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
+    }
+
+    config-notification-open-close {
+        spring damping-ratio=0.6 stiffness=1000 epsilon=0.001
+    }
+
+    exit-confirmation-open-close {
+        spring damping-ratio=0.6 stiffness=500 epsilon=0.01
+    }
+
+    screenshot-ui-open {
+        duration-ms 200
+        curve "ease-out-quad"
+    }
+
+    overview-open-close {
+        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
+    }
+}
