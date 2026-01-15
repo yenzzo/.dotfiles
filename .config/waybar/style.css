@@ -27,6 +27,7 @@ window#waybar {
     border: 2px solid #FBF1C7;
     padding-left: 0;
     padding-right: 0;
+    margin: 0;
 }
 
 #workspaces button {
@@ -34,5 +35,10 @@ window#waybar {
     color: #A89984;
     padding-left: 0px;
     padding-right: 0px;
+    margin: 0px;
+}
+
+#memory {
+   margin-right: 8px; 
 }
 

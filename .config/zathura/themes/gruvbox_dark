@@ -62,7 +62,7 @@ set search-hadjust true
 set adjust-open width
 
 " Typography
-set font "JetBrainsMono Nerd Font Mono 10"
+set font "Hurmit Nerd Font 10"
 
 " Mappings
 
