@@ -1,56 +1,70 @@
 .top_bar {
-  font-size: 14px;
-  font-family: FiraCode Nerd Font;
-  font-weight: bold;
+   font-size: 16px;
+   font-family: Hurmit Nerd Font;
+   font-weight: bold;
 }
 
 .bottom_bar {
-  font-size: 14px;
-  font-family: FiraCode Nerd Font;
-  font-weight: bold;
+   font-size: 16px;
+   font-family: Hurmit Nerd Font;
+   font-weight: bold;
 }
 
 /* top bar */
-window.top_bar .module {
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-window.top_bar #custom-arch {
-    padding: 15px;
-}
-
+/* bar */
 window.top_bar#waybar {
-    background-color: #282828;
-    border: 2px solid #EBDBB2;
-    padding-left: 6px;
+   background-color: #282828;
+   border: 2px solid #EBDBB2;
 }
 
+/* custom-arch module */
+window.top_bar #custom-arch {
+   padding: 0px 18px 0px 12px;
+}
+
+/* network module */
 window.top_bar #network {
-    border: 2px solid #EBDBB2;
 }
 
+/* workspace module */
 window.top_bar #workspaces {
-    border: 2px solid #FBF1C7;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
+   border: 2px solid #FBF1C7;
+   padding: 0px 0px;
+   margin: 0px;
 }
 
+/* workspace buttons */
 window.top_bar #workspaces button {
-    border-radius: 0;
-    color: #A89984;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0px;
+   border-radius: 0px;
+   color: #A89984;
+   padding: 0px;
+   margin: 0px;
 }
 
-window.top_bar #memory {
-   margin-right: 8px; 
+/* niri/window module */
+window.top_bar #window {
+   padding-left: 15px;
+   padding-right: 15px;
 }
+
+/* memory module */
+window.top_bar #memory {
+   padding: 0px 15px 0px 15px;
+} 
+
+/* cpu module */
+window.top_bar #cpu {
+   padding: 0px 5px 0px 15px;
+} 
 
 /* bottom bar */
+/* bar */
+window.bottom_bar#waybar {
+   border: 2px solid #EBDBB2;
+   padding-left: 6px;
+}
 
-tray.bottom_bar#waybar {
-  padding: 5px;
+/* tray module */
+window.bottom_bar #tray {
+   padding: 10px 15px 10px 15px;
 }

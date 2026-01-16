@@ -1,15 +1,15 @@
 [
-  // top bar
-  {
-    "include": [
+   // top bar
+   {
+      "include": [
       "/home/lainux/.dotfiles/.config/waybar/top_bar.json"
-    ], 
+      ], 
 
-  },
-  // bottom bar
-  {
-    "include": [
+   },
+   // bottom bar
+   {
+      "include": [
       "/home/lainux/.dotfiles/.config/waybar/bottom_bar.json"
-    ]
-  }
+      ]
+   }
 ]
