@@ -34,11 +34,11 @@ layout {
 
     shadow {
         on
-        softness 15 
-        spread 3 
-        offset x=3 y=5
-        color "#282828"
-        inactive-color "#3C3836"
+        softness 5 
+        spread 1 
+        offset x=10 y=12
+        //color "#32302F"
+        //inactive-color "#eaeaea"
         draw-behind-window true
     }
 
