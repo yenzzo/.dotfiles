@@ -1,36 +1,43 @@
-* {
-    font-size: 14px;
-    font-family: FiraCode Nerd Font;
-    font-weight: bold;
+.top_bar {
+  font-size: 14px;
+  font-family: FiraCode Nerd Font;
+  font-weight: bold;
 }
 
-.module {
+.bottom_bar {
+  font-size: 14px;
+  font-family: FiraCode Nerd Font;
+  font-weight: bold;
+}
+
+/* top bar */
+window.top_bar .module {
     padding-left: 8px;
     padding-right: 8px;
 }
 
-#custom-arch {
-    padding-left: 10px;
+window.top_bar #custom-arch {
+    padding: 15px;
 }
 
-window#waybar {
+window.top_bar#waybar {
     background-color: #282828;
     border: 2px solid #EBDBB2;
     padding-left: 6px;
 }
 
-#network {
+window.top_bar #network {
     border: 2px solid #EBDBB2;
 }
 
-#workspaces {
+window.top_bar #workspaces {
     border: 2px solid #FBF1C7;
     padding-left: 0;
     padding-right: 0;
     margin: 0;
 }
 
-#workspaces button {
+window.top_bar #workspaces button {
     border-radius: 0;
     color: #A89984;
     padding-left: 0px;
@@ -38,7 +45,12 @@ window#waybar {
     margin: 0px;
 }
 
-#memory {
+window.top_bar #memory {
    margin-right: 8px; 
 }
 
+/* bottom bar */
+
+tray.bottom_bar#waybar {
+  padding: 5px;
+}

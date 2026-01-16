@@ -1,0 +1,32 @@
+{
+  // general properties
+  "name": "bottom_bar",
+  "layer": "top",
+  "position": "bottom",
+  "height": 40,
+  "margin-top": 10,
+  "margin-left": 10,
+  "margin-right": 10,
+
+  // modules position 
+  "modules-left": [
+    
+  ],
+
+  "modules-center": [
+    "tray"
+  ],
+
+  "modules-right": [
+    
+  ],
+
+  "temperature": {
+    "format": "{temperatureC}°C "
+  },
+
+  "tray": {
+    "icon-size": 15,
+    "spacing": 10
+  },
+}
