@@ -4,4 +4,5 @@ environment {
    QT_QPA_PLATFORM "wayland"
    GTK_IM_MODULE "wayland"
    DISPLAY ":0"
+   ELECTRON_OZONE_PLATFORM_HINT "wayland"
 }
