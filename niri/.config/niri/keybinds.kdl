@@ -100,7 +100,7 @@ binds {
     // niri built-in screenshot system
     Mod+A { screenshot; }
     Ctrl+Mod+A { screenshot-screen; }
-    Alt+Print { screenshot-window; }
+    Alt+Mod+A { screenshot-window; }
 
     // Applications such as remote-desktop clients and software KVM switches may
     // request that niri stops processing the keyboard shortcuts defined here
