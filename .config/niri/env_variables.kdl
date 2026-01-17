@@ -1,6 +1,7 @@
 //environment variables
 environment {
-  QT_QPA_PLATFORMTHEME "qt5ct"
-  QT_QPA_PLATFORM "wayland"
-  GTK_IM_MODULE "wayland"
+   QT_QPA_PLATFORMTHEME "qt5ct"
+   QT_QPA_PLATFORM "wayland"
+   GTK_IM_MODULE "wayland"
+   DISPLAY ":0"
 }
