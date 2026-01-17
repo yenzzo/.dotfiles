@@ -1,6 +1,6 @@
 [opener]
    open_image = [
-      { run = 'imv "$@"', orphan = true },
+      { run = 'sxiv "$@"', orphan = true },
    ]
 
    edit_file = [
