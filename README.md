@@ -18,3 +18,6 @@ This repository contains my Arch Linux system dotfiles.
 
 ## Screenshots
 <img src="screenshot-1.png">
+
+### Note
+> All my files (or my dotfiles, if you will) are managed with the aid of [GNU stow](https://www.gnu.org/software/stow); hence the seemingly weird structure of this repository.
