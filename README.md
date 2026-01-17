@@ -5,7 +5,7 @@ This repository contains my Arch Linux system dotfiles.
 - **Wayland Compositor**: [niri](https://yalter.github.io/niri) 
 - **Terminal**: [kitty](https://sw.kovidgoyal.net/kitty)
 - **Notification Daemon**: [dunst](https://dunst-project.org)
-- **Wallpaper Daemon**: [awww](https://codeberg.org/LGFae/awww) The package name on Arch Linux is swww
+- **Wallpaper Daemon**: [awww](https://codeberg.org/LGFae/awww) (the package name on Arch Linux is still swww) 
 - **Screen Lock**: [hyprlock](https://github.com/hyprwm/hyprlock)
 - **Application Launcher**: [fuzzel](https://codeberg.org/dnkl/fuzzel)
 - **Bar**: [waybar](https://github.com/Alexays/Waybar)
