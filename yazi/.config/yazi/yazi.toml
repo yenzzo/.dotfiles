@@ -1,6 +1,6 @@
 [opener]
    open_image = [
-      { run = 'imv "$@"', desc = "Open", orphan = true },
+      { run = 'imv "$@"', orphan = true },
    ]
 
    edit_file = [
@@ -21,12 +21,23 @@
 
 [open]
    prepend_rules = [
-      { url = "*.pdf", use = [ "read-1" ] },
-      { url = "*.epub", use = [ "read-1" ] },
-      { url = "*.gif", use = [ "play" ] },
+      # text
       { url = "*.html", use = [ "open_link" ] },
       { url = "*.toml", use = [ "edit_file" ] },
+      { url = "*.lua", use = [ "edit_file" ] },
+      { url = "*.conf", use = [ "edit_file" ] },
+      { url = "*.kdl", use = [ "edit_file" ] },
+      { url = "*.ini", use = [ "edit_file" ] },
+      { url = "*.json", use = [ "edit_file" ] },
+      { url = "*.css", use = [ "edit_file" ] },
+
+      # image
       { url = "*.png", use = [ "open_image" ] },
       { url = "*.jpeg", use = [ "open_image" ] },
-      { url = "*.jpg", use = [ "open_image" ] }
+      { url = "*.jpg", use = [ "open_image" ] },
+      { url = "*.gif", use = [ "play" ] },
+
+      # documents
+      { url = "*.pdf", use = [ "read-1" ] },
+      { url = "*.epub", use = [ "read-1" ] },
    ]
