@@ -1,0 +1,23 @@
+window-rule {
+    match app-id="kitty"
+    open-floating true
+    default-column-width { fixed 900; }
+    default-floating-position x=500 y=200 relative-to="top-left"
+    default-window-height { fixed 500; }
+}
+
+// block out one password manager from screen capture.
+window-rule {
+    match app-id=r#"^org\.keepassxc\.KeePassXC$"#
+
+    block-out-from "screen-capture"
+
+    // Use this instead if you want them visible on third-party screenshot tools.
+    // block-out-from "screencast"
+}
+
+// enable rounded corners for all windows.
+window-rule {
+    geometry-corner-radius 8 
+    clip-to-geometry true
+}

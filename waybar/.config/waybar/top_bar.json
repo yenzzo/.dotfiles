@@ -1,0 +1,130 @@
+{
+   // general properties
+   "name": "top_bar",
+   "layer": "top",
+   "position": "top",
+   "height": 40,
+   "margin-top": 10,
+   "margin-left": 10,
+   "margin-right": 10,
+   "spacing": -5,
+   "reload_style_on_change": true,
+
+   // modules position
+   "modules-left": [
+      "custom/arch",
+      "niri/workspaces",
+      "niri/window"
+   ],
+
+   "modules-center": [
+      "clock"
+   ],
+
+   "modules-right": [
+      "cpu",
+      "memory"
+   ],
+
+   // cpu module
+   "cpu": {
+   "format": "{usage}% ",
+   },
+
+   // system memory module
+   "memory": {
+   "format": "{}% ",
+   },
+
+   // displays the currently used workspaces in niri
+   "niri/workspaces": {
+      "format": "{icon}",
+      "format-icons": {
+      "focused": "󱓻",
+      "default": "󱓼"
+      }
+   },
+
+   // displays the title of the currently focused window in niri 
+   "niri/window": {
+      "rewrite": {
+      "": "niri"
+      }
+   },
+
+   // arch symbol module
+   "custom/arch": {
+      "format": "󰣇",
+      "tooltip-format": "this is arch btw"
+   },
+
+   // network module
+   "network": {
+      "format-wifi": " ",
+      "format-ethernet": "󰈀",
+      "format-linked": "",
+      "format-disconnected": "⚠ ",
+      "tooltip-format": "{essid}\n{ipaddr}/{cidr}",
+      "tooltip": true,
+      "on-click": "kitty -e nmtui"
+   },
+
+   // displays the currently selected keyboard language (layout) in niri.
+   "niri/language": {
+      "format": "󰣩 {}"
+   },
+
+   // clock module 
+   "clock": {
+      "format": " {:%I:%M}",
+      "format-alt": "{:%A, %d %b, %Y}",
+      "tooltip-format": "<tt><small>{calendar}</small></tt>",
+      "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "weeks-pos": "left",
+      "on-scroll": 1,
+      "format": {
+         "months": "<span color='#d4be98'><b>{}</b></span>",
+         "days": "<span color='#d4be98'><b>{}</b></span>",
+         "weeks": "<span color='#a9b665'><b>W{}</b></span>",
+         "weekdays": "<span color='#d8a657'><b>{}</b></span>",
+         "today": "<span color='#e78a4e'><b><u>{}</u></b></span>"
+      }
+   },
+
+      "actions": {
+      "on-click-middle": "mode",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down",
+      }
+   },
+
+   // pulseaudio module
+   "pulseaudio": {
+      "scroll-step": 1,
+      "format": "{icon}  {volume}%",
+      "format-bluetooth": "{volume}% {icon} {format_source}",
+      "format-bluetooth-muted": "<span foreground='#ea6962'>  {format_source}</span>",
+      "format-muted": "<span foreground='#ea6962'> </span> {format_source}",
+      "format-source": " ",
+      "format-source-muted": " <span foreground='#ea6962'></span>",
+      "format-icons": {
+      "headphone": " ",
+      "headset": " ",
+      "default": [
+         "",
+         "",
+         ""
+      ]
+   },
+
+      "tooltip": false,
+      "on-click": "pavucontrol"
+   }, 
+
+   "tray": {
+      "icon-size": 15,
+      "spacing": 10
+   }
+}
