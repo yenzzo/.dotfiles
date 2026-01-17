@@ -38,7 +38,7 @@
 
    // displays the currently used workspaces in niri
    "niri/workspaces": {
-      "format": "{icon}",
+      "format": "{value}",
       "format-icons": {
       "focused": "󱓻",
       "default": "󱓼"
