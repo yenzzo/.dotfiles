@@ -22,9 +22,18 @@
    ],
 
    "modules-right": [
+      "temperature",
       "cpu",
-      "memory"
+      "memory",
    ],
+
+   // temperature module
+   "temperature": {
+      "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+      "critical-thresold": 82,
+      "format": "{temperatureC}°C ",
+      "interval": 1,
+   },
 
    // cpu module
    "cpu": {
