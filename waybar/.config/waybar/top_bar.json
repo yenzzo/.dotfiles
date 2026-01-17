@@ -14,7 +14,9 @@
    "modules-left": [
       "custom/arch",
       "niri/workspaces",
-      "niri/window"
+      "hyprland/workspaces",
+      "niri/window",
+      "hyprland/window"
    ],
 
    "modules-center": [
@@ -54,10 +56,23 @@
       }
    },
 
+   // display the currently used workspaces in hyprland
+   "hyprland/workspaces": {
+      "format": "{name}",
+      "active-only": true
+   },
+
    // displays the title of the currently focused window in niri 
    "niri/window": {
       "rewrite": {
-      "": "niri"
+         "": "niri"
+      }
+   },
+
+   // displays the title of the currently focused window in hyprland 
+   "hyprland/window": {
+      "rewrite": {
+         "": "hyprland"
       }
    },
 
