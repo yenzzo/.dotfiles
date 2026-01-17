@@ -57,6 +57,11 @@ window.top_bar #cpu {
    padding: 0px 5px 0px 15px;
 } 
 
+/* temperature module */
+window.top_bar #temperature {
+   padding: 0px 5px 0px 15px;
+}
+
 /* bottom bar */
 /* bar */
 window.bottom_bar#waybar {
