@@ -134,7 +134,7 @@ export PATH=$PATH:/home/lainux/.spicetify
 
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
-#export GTK_IM_MODULE=fcitx
+unset GTK_IM_MODULE
 export SDL_IM_MODULE=fcitx
 
 # Zoxide
