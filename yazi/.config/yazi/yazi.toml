@@ -31,12 +31,13 @@
       { url = "*.json", use = [ "edit_file" ] },
       { url = "*.css", use = [ "edit_file" ] },
 
-      # image
+      # images
       { url = "*.png", use = [ "open_image" ] },
       { url = "*.jpeg", use = [ "open_image" ] },
       { url = "*.jpg", use = [ "open_image" ] },
       { url = "*.gif", use = [ "play" ] },
-
+      { url = "*.webp", use = [ "play" ] },
+            
       # documents
       { url = "*.pdf", use = [ "read-1" ] },
       { url = "*.epub", use = [ "read-1" ] },
