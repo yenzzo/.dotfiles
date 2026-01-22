@@ -23,3 +23,5 @@ This repository contains my Arch Linux system dotfiles.
 > All my files (or my dotfiles, if you will) are managed with the aid of [GNU stow](https://www.gnu.org/software/stow) — hence the seemingly weird structure of this repository.
 
 > Screenshots are probably outdated. Don't rely too much on them.
+
+> My config files are heavily influenced by those posted on the subreddit r/unixporn. I don't claim credit for them; but, in equal degree, I didn't blindly copy them, for I've implemented my own modifications.
