@@ -13,9 +13,9 @@
    // modules position
    "modules-left": [
       "custom/arch",
-      "niri/workspaces",
+      //"niri/workspaces",
       "hyprland/workspaces",
-      "niri/window",
+      //"niri/window",
       "hyprland/window"
    ],
 
@@ -59,7 +59,6 @@
    // display the currently used workspaces in hyprland
    "hyprland/workspaces": {
       "format": "{name}",
-      "active-only": true
    },
 
    // displays the title of the currently focused window in niri 

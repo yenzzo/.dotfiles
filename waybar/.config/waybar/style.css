@@ -29,8 +29,8 @@ window.top_bar #network {
 /* workspace module */
 window.top_bar #workspaces {
    border: 2px solid #FBF1C7;
-   padding: 0px 0px;
-   margin: 0px;
+   padding: 0px 3px;
+   margin: 0px 5px;
 }
 
 /* workspace buttons */
@@ -38,7 +38,13 @@ window.top_bar #workspaces button {
    border-radius: 0px;
    color: #A89984;
    padding: 0px;
-   margin: 0px;
+   margin: 0px 4px;
+}
+
+/* active workspace button */
+window.top_bar #workspaces button.active {
+   color: #FBF1C7;
+   background-color: #282828;
 }
 
 /* niri/window module */
