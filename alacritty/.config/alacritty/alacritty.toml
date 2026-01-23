@@ -2,3 +2,10 @@
 import = [
    "~/.dotfiles/alacritty/.config/alacritty/themes/gruvbox_material.toml"
 ]
+
+[font]
+size = 20.0
+normal = { family = "Cozette" }
+bold = { family = "Cozette", style = "Bold" }
+italic = { family = "Cozette", style = "Italic" }
+bold_italic = { family = "Cozette", style = "Bold Italic" }
