@@ -1,0 +1,4 @@
+[general]
+import = [
+   "~/.dotfiles/alacritty/.config/alacritty/themes/gruvbox_material.toml"
+]
