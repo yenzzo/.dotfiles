@@ -2,7 +2,7 @@
 This repository contains my Arch Linux system dotfiles.
 
 ## Resources
-- **Wayland Compositor**: [niri](https://yalter.github.io/niri) & [hyprland](https://wiki.hypr.land) 
+- **Wayland Compositors**: [niri](https://yalter.github.io/niri) & [hyprland](https://wiki.hypr.land) 
 - **Terminal**: [kitty](https://sw.kovidgoyal.net/kitty)
 - **Notification Daemon**: [dunst](https://dunst-project.org)
 - **Wallpaper Daemon**: [awww](https://codeberg.org/LGFae/awww) (the package name on Arch Linux is still swww) 
@@ -14,7 +14,6 @@ This repository contains my Arch Linux system dotfiles.
 - **File Manager**: [yazi](https://yazi-rs.github.io)
 - **Spotify Client Customizer**: [spicetify](https://spicetify.app)
 - **Terminal fetch**: [nerdfetch](https://github.com/ThatOneCalculator/NerdFetch)
-- **Discord client**: [vesktop](https://vesktop.dev)
 
 ## Screenshots
 <img src="screenshot-1.png">
