@@ -2,7 +2,7 @@
 This repository contains my Arch Linux system dotfiles.
 
 ## Resources
-- **Wayland Compositors**: [niri](https://yalter.github.io/niri) & [hyprland](https://wiki.hypr.land) 
+- **Wayland Compositors**: [niri](https://yalter.github.io/niri) & [hyprland](https://wiki.hypr.land) (currently, due to xwayland problems on niri, I'm only using hyprland) 
 - **Terminal**: [kitty](https://sw.kovidgoyal.net/kitty)
 - **Notification Daemon**: [dunst](https://dunst-project.org)
 - **Wallpaper Daemon**: [awww](https://codeberg.org/LGFae/awww) (the package name on Arch Linux is still swww) 
