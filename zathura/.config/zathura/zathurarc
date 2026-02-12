@@ -1,1 +1,2 @@
-include themes/gruvbox_dark
+include themes/gruvbox_light
+include keybinds

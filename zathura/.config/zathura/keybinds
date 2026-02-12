@@ -1,0 +1,18 @@
+# font
+set font "proportional_font 9"
+set font "Hurmit Nerd Font 10"
+
+# copy text to main clipboard
+set selection-clipboard clipboard
+
+# mappings 
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+
+# search
+set incremental-search true
+set search-hadjust true
+
+# autoadjust
+set adjust-open width
