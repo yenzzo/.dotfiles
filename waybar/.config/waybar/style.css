@@ -67,6 +67,9 @@ window.top_bar #cpu {
 window.top_bar #temperature {
    padding: 0px 5px 0px 15px;
 }
+ window.top_bar #tray {
+   padding: 10px 15px 10px 5px;
+ }
 
 /* bottom bar */
 /* bar */
