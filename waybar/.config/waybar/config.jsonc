@@ -5,11 +5,11 @@
       "top_bar.json"
       ], 
 
-   },
-   // bottom bar
-   {
-      "include": [
-      "bottom_bar.json"
-      ]
    }
+   // bottom bar
+//   {
+//      "include": [
+//      "bottom_bar.json"
+//      ]
+//   }
 ]
