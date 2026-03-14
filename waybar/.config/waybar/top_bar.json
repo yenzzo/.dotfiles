@@ -27,6 +27,7 @@
       "temperature",
       "cpu",
       "memory",
+      "tray"
    ],
 
    // temperature module
@@ -39,12 +40,12 @@
 
    // cpu module
    "cpu": {
-   "format": "{usage}% ",
+      "format": "{usage}% ",
    },
 
    // system memory module
    "memory": {
-   "format": "{}% ",
+      "format": "{}% ",
    },
 
    // displays the currently used workspaces in niri
@@ -147,7 +148,8 @@
    }, 
 
    "tray": {
-      "icon-size": 15,
-      "spacing": 10
+      "icon-size": 20,
+      "spacing": 5,
+      "show-passive-items": true
    }
 }
