@@ -1,12 +1,25 @@
 return {
-  -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
+  "ellisonleao/gruvbox.nvim",
+  priority = 1000,
+  config = function()
+    -- Initialize the plugin with your specific preferences before setting the colorscheme
+    require("gruvbox").setup({
+      terminal_colors = true,
+      undercurl = true,
+      underline = true,
+      bold = true,
+      italic = {
+        strings = false,
+        emphasis = true,
+        comments = true,
+        operators = false,
+        folds = true,
+      },
+      contrast = "hard", -- Options: "hard", "soft", or "" (default)
+      transparent_mode = false,
+    })
 
-  -- configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "gruvbox",
-    },
-  },
+    -- Execute the Vim command to apply the theme globally
+    vim.cmd("colorscheme gruvbox")
+  end,
 }
