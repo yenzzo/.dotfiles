@@ -12,10 +12,6 @@ window-rule {
    default-window-height {
       fixed 500;
    }
-
-   focus-ring {
-      off
-   }
 }
 
 // block out one password manager from screen capture.
@@ -32,4 +28,13 @@ window-rule {
 window-rule {
    geometry-corner-radius 6 
    clip-to-geometry true
+}
+
+// remove focus-ring from floating windows
+window-rule {
+   match is-floating=true
+
+   focus-ring {
+      off
+   }
 }
