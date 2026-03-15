@@ -37,8 +37,9 @@ window.top_bar #workspaces {
 window.top_bar #workspaces button {
    border-radius: 0px;
    color: #A89984;
-   padding: 0px;
+   padding: 0px 4px;
    margin: 0px 4px;
+   min-width: 0;
 }
 
 /* active workspace button */

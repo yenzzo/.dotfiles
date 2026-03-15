@@ -13,10 +13,10 @@
    // modules position
    "modules-left": [
       "custom/arch",
-      //"niri/workspaces",
-      "hyprland/workspaces",
-      //"niri/window",
-      "hyprland/window"
+      "niri/workspaces",
+      //"hyprland/workspaces",
+      "niri/window"
+      //"hyprland/window"
    ],
 
    "modules-center": [
