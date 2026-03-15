@@ -17,24 +17,25 @@ layout {
     }
 
     focus-ring {
-        off
-        width 2 
-        active-color "#EBDBB2"
+        on
+        width 3 
+        active-color "#b16286"
         urgent-color "#CC241D"
-        inactive-color "#32302F"
+        inactive-color "#d79921"
+        active-gradient from="#b16286" to="#d3869b" angle=45
     }
 
     border {
-        on
+        off 
         width 2 
-        active-color "#EBDBB2"
+        active-color "#d3869b"
         inactive-color "#32302F"
         urgent-color "#CC241D"
     }
 
     shadow {
         on
-        softness 5 
+        softness 6 
         spread 1 
         offset x=10 y=12
         //color "#32302F"
