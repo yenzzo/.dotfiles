@@ -1,5 +1,5 @@
 .top_bar {
-   font-size: 16px;
+   font-size: 18px;
    font-family: Hurmit Nerd Font;
    font-weight: bold;
 }
@@ -10,7 +10,7 @@
    font-weight: bold;
 }
 
-/* top bar */
+/* TOP BAR!!! */
 /* bar */
 window.top_bar#waybar {
    background-color: #282828;
@@ -35,7 +35,6 @@ window.top_bar #workspaces {
 
 /* workspace buttons */
 window.top_bar #workspaces button {
-   border-radius: 0px;
    color: #A89984;
    padding: 0px 4px;
    margin: 0px 4px;
@@ -72,7 +71,7 @@ window.top_bar #temperature {
    padding: 10px 15px 10px 5px;
  }
 
-/* bottom bar */
+/* BOTTOM BAR!!! */
 /* bar */
 window.bottom_bar#waybar {
    border: 2px solid #EBDBB2;
