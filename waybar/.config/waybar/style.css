@@ -1,9 +1,14 @@
+/* default */
+* {
+}
+
 .top_bar {
    font-size: 18px;
    font-family: Hurmit Nerd Font;
    font-weight: bold;
 }
 
+/* DEPRECATED */
 .bottom_bar {
    font-size: 16px;
    font-family: Hurmit Nerd Font;
@@ -13,13 +18,16 @@
 /* TOP BAR!!! */
 /* bar */
 window.top_bar#waybar {
-   background-color: #282828;
-   border: 2px solid #EBDBB2;
+   background-color: #32302f;
+   border-right: 3px solid #458588;
+   border-bottom: 3px solid #458588;
 }
 
 /* custom-arch module */
 window.top_bar #custom-arch {
    padding: 0px 18px 0px 12px;
+   color: #cc241d;
+   font-size: 20px;
 }
 
 /* network module */
@@ -28,49 +36,72 @@ window.top_bar #network {
 
 /* workspace module */
 window.top_bar #workspaces {
-   border: 2px solid #FBF1C7;
+   border-bottom: 3px solid #458588;
    padding: 0px 3px;
    margin: 0px 5px;
 }
 
 /* workspace buttons */
 window.top_bar #workspaces button {
-   color: #A89984;
+   color: #b16286;
    padding: 0px 4px;
    margin: 0px 4px;
    min-width: 0;
+   border-radius: 0px;
 }
 
 /* active workspace button */
 window.top_bar #workspaces button.active {
-   color: #FBF1C7;
-   background-color: #282828;
+   color: #8f3f71;
+   border-top: 3px solid #8f3f71;
+}
+
+window.top_bar #clock {
+   color: #d5c4a1;
+   font-size: 16px;
 }
 
 /* niri/window module */
 window.top_bar #window {
    padding-left: 15px;
    padding-right: 15px;
+   padding: 0px 15px 1px 15px;
+   color: #d5c4a1;
+   font-size: 16px;
 }
 
 /* memory module */
 window.top_bar #memory {
    padding: 0px 15px 0px 15px;
+   color: #689d6a;
+   font-size: 16px;
 } 
 
 /* cpu module */
 window.top_bar #cpu {
    padding: 0px 5px 0px 15px;
-} 
+   color: #d79921;
+   font-size: 16px;
+}
 
 /* temperature module */
 window.top_bar #temperature {
    padding: 0px 5px 0px 15px;
+   color: #98971a;
+   font-size: 16px;
 }
- window.top_bar #tray {
-   padding: 10px 15px 10px 5px;
- }
 
+/* tray module */
+window.top_bar #tray {
+   padding: 10px 15px 10px 5px;
+   color: #d79921;
+}
+
+window.top_bar #tray widget {
+   color: #d65d0e
+}
+
+/* DEPRECATED */
 /* BOTTOM BAR!!! */
 /* bar */
 window.bottom_bar#waybar {
