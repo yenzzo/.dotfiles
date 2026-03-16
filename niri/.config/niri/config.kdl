@@ -10,6 +10,7 @@ include "env_variables.kdl" // environment variables
 include "input.kdl" // input (keyboards, mouses etc.)
 include "output.kdl" // output (monitors)
 include "windows_rules.kdl" // windows rules
+include "cursor.kdl" // cursor configuration
 
 // spawn-at-startup rules
 spawn-at-startup "waybar"
