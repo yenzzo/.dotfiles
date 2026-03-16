@@ -18,7 +18,7 @@
 /* TOP BAR!!! */
 /* bar */
 window.top_bar#waybar {
-   background-color: #32302f;
+   background-color: #282828;
    border-right: 3px solid #458588;
    border-bottom: 3px solid #458588;
 }
