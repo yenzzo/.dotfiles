@@ -19,8 +19,8 @@
 /* bar */
 window.top_bar#waybar {
    background-color: #282828;
-   border-right: 3px solid #458588;
-   border-bottom: 3px solid #458588;
+   border-right: 3px solid #d79921;
+   border-bottom: 3px solid #d79921;
 }
 
 /* custom-arch module */
@@ -36,7 +36,7 @@ window.top_bar #network {
 
 /* workspace module */
 window.top_bar #workspaces {
-   border-bottom: 3px solid #458588;
+   border-bottom: 3px solid #d79921;
    padding: 0px 3px;
    margin: 0px 5px;
 }
@@ -80,7 +80,7 @@ window.top_bar #memory {
 /* cpu module */
 window.top_bar #cpu {
    padding: 0px 5px 0px 15px;
-   color: #d79921;
+   color: #458588;
    font-size: 16px;
 }
 
