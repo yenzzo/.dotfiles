@@ -19,14 +19,14 @@
 /* bar */
 window.top_bar#waybar {
    background-color: #282828;
-   border-right: 3px solid #d79921;
-   border-bottom: 3px solid #d79921;
+   border-right: 3px solid #458588;
+   border-bottom: 3px solid #458588;
 }
 
 /* custom-arch module */
 window.top_bar #custom-arch {
    padding: 0px 18px 0px 12px;
-   color: #cc241d;
+   color: #458588;
    font-size: 20px;
 }
 
@@ -36,14 +36,14 @@ window.top_bar #network {
 
 /* workspace module */
 window.top_bar #workspaces {
-   border-bottom: 3px solid #d79921;
+   border-bottom: 3px solid #458588;
    padding: 0px 3px;
    margin: 0px 5px;
 }
 
 /* workspace buttons */
 window.top_bar #workspaces button {
-   color: #b16286;
+   color: #d79921;
    padding: 0px 4px;
    margin: 0px 4px;
    min-width: 0;
@@ -52,13 +52,8 @@ window.top_bar #workspaces button {
 
 /* active workspace button */
 window.top_bar #workspaces button.active {
-   color: #8f3f71;
-   border-top: 3px solid #8f3f71;
-}
-
-window.top_bar #clock {
-   color: #d5c4a1;
-   font-size: 16px;
+   color: #fabd2f;
+   border-top: 3px solid #458588;
 }
 
 /* niri/window module */
@@ -70,24 +65,30 @@ window.top_bar #window {
    font-size: 16px;
 }
 
+window.top_bar #clock {
+   color: #d79921;
+   font-size: 16px;
+}
+
+
 /* memory module */
 window.top_bar #memory {
    padding: 0px 15px 0px 15px;
-   color: #689d6a;
+   color: #d79921;
    font-size: 16px;
 } 
 
 /* cpu module */
 window.top_bar #cpu {
    padding: 0px 5px 0px 15px;
-   color: #458588;
+   color: #d79921;
    font-size: 16px;
 }
 
 /* temperature module */
 window.top_bar #temperature {
    padding: 0px 5px 0px 15px;
-   color: #98971a;
+   color: #d79921;
    font-size: 16px;
 }
 
@@ -98,7 +99,7 @@ window.top_bar #tray {
 }
 
 window.top_bar #tray widget {
-   color: #d65d0e
+   color: #d79921
 }
 
 /* DEPRECATED */
