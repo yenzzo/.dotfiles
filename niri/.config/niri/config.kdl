@@ -14,7 +14,6 @@ include "cursor.kdl" // cursor configuration
 
 // spawn-at-startup rules
 spawn-at-startup "waybar"
-spawn-at-startup "protonvpn-app"
 spawn-at-startup "swww-daemon"
 
 hotkey-overlay {
