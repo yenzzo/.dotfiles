@@ -1,7 +1,8 @@
 input {
     keyboard {
         xkb {
-           layout "us"
+           layout "us, kuntum"
+	   options "grp:win_space_toggle"
         }
     }
 
