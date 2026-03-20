@@ -53,7 +53,7 @@ window.top_bar #workspaces button {
 /* active workspace button */
 window.top_bar #workspaces button.active {
    color: #ebdbb2;
-   border-top: 3px solid #458588;
+   border-top: 3px solid #427b58;
 }
 
 /* niri/window module */
