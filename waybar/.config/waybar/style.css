@@ -19,8 +19,8 @@
 /* bar */
 window.top_bar#waybar {
    background-color: #282828;
-   border-right: 3px solid #458588;
-   border-bottom: 3px solid #458588;
+   border-right: 3px solid #d5c4a1;
+   border-bottom: 3px solid #d5c4a1;
 }
 
 /* custom-arch module */
@@ -36,14 +36,14 @@ window.top_bar #network {
 
 /* workspace module */
 window.top_bar #workspaces {
-   border-bottom: 3px solid #458588;
+   border-bottom: 3px solid #d5c4a1;
    padding: 0px 3px;
    margin: 0px 5px;
 }
 
 /* workspace buttons */
 window.top_bar #workspaces button {
-   color: #d79921;
+   color: #ebdbb2;
    padding: 0px 4px;
    margin: 0px 4px;
    min-width: 0;
@@ -52,7 +52,7 @@ window.top_bar #workspaces button {
 
 /* active workspace button */
 window.top_bar #workspaces button.active {
-   color: #fabd2f;
+   color: #ebdbb2;
    border-top: 3px solid #458588;
 }
 
@@ -61,12 +61,12 @@ window.top_bar #window {
    padding-left: 15px;
    padding-right: 15px;
    padding: 0px 15px 1px 15px;
-   color: #d5c4a1;
+   color: #ebdbb2;
    font-size: 16px;
 }
 
 window.top_bar #clock {
-   color: #d79921;
+   color: #ebdbb2;
    font-size: 16px;
 }
 
@@ -74,32 +74,32 @@ window.top_bar #clock {
 /* memory module */
 window.top_bar #memory {
    padding: 0px 15px 0px 15px;
-   color: #d79921;
+   color: #ebdbb2;
    font-size: 16px;
 } 
 
 /* cpu module */
 window.top_bar #cpu {
    padding: 0px 5px 0px 15px;
-   color: #d79921;
+   color: #ebdbb2;
    font-size: 16px;
 }
 
 /* temperature module */
 window.top_bar #temperature {
    padding: 0px 5px 0px 15px;
-   color: #d79921;
+   color: #ebdbb2;
    font-size: 16px;
 }
 
 /* tray module */
 window.top_bar #tray {
    padding: 10px 15px 10px 5px;
-   color: #d79921;
+   color: #ebdbb2;
 }
 
 window.top_bar #tray widget {
-   color: #d79921
+   color: #ebdbb2
 }
 
 /* DEPRECATED */
