@@ -17,10 +17,11 @@ layout {
     }
 
     focus-ring {
-        on 
-        width 3 
-        active-color "#427b58"
+        off 
+        width 2 
+        active-color "#ebdbb2"
         urgent-color "#CC241D"
+        // it doesn't even make sense to add this tho
         inactive-color "#665c54"
     }
 

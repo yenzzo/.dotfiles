@@ -15,6 +15,7 @@ include "cursor.kdl" // cursor configuration
 // spawn-at-startup rules
 spawn-at-startup "waybar"
 spawn-at-startup "swww-daemon"
+spawn-at-startup "hypridle"
 
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
