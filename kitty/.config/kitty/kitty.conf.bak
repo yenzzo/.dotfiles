@@ -1,7 +1,7 @@
 # vim:fileencoding=utf-8:foldmethod=marker
 
 # fonts 
-  font_family      Hurmit Nerd Font 
+  font_family      Hurmit Nerd Font
   bold_font        auto
   italic_font      auto
   bold_italic_font auto
@@ -12,7 +12,7 @@
   cursor_shape underline 
   cursor_shape_unfocused hollow
   cursor_trail 10
-  cursor_trail_color #EBDBB2
+# cursor_trail_color #EBDBB2
 
 # scrollback
   scrollbar scrolled 
@@ -20,7 +20,7 @@
 
 # mouse
   mouse_hide_wait 1.0
-  url_color #458588
+# url_color #458588
   detect_urls yes
   show_hyperlink_targets yes 
   underline_hyperlinks always
@@ -33,8 +33,8 @@
 
 # window layout
   enabled_layouts all
-  active_border_color #B8BB26 
-  inactive_border_color #928374
+# active_border_color #B8BB26 
+# inactive_border_color #928374
   window_border_width 1pt
   inactive_text_alpha 0.5
 
@@ -102,6 +102,5 @@
   map ctrl+shift+u kitten unicode_input
 
 # themes
-
-# Gruvbox Material Dark Soft
+# Gruvbox Dark Hard
 include current-theme.conf
