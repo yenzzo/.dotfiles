@@ -30,11 +30,11 @@ window-rule {
    clip-to-geometry true
 }
 
-// remove focus-ring from floating windows
+// modify focus-ring of floating windows
 window-rule {
    match is-floating=true
 
    focus-ring {
-      off
+      on
    }
 }

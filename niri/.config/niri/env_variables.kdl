@@ -3,6 +3,6 @@ environment {
   QT_QPA_PLATFORMTHEME "qt5ct"
   QT_QPA_PLATFORM "wayland"
   QT_IM_MODULE "fcitx"
-  GTK_IM_MODULE "wayland"
+  GTK_IM_MODULE "fcitx"
   XCURSOR_THEME "Capitaine_Gruvbox"
 }
