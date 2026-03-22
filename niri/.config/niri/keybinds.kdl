@@ -1,14 +1,14 @@
 binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
-    // 'programs'
+    // 'programs' / scripts 
     Mod+Q hotkey-overlay-title="Open kitty" { spawn "kitty"; }
     Mod+Y hotkey-overlay-title="Run yazi" { spawn-sh "kitty yazi"; }
     Mod+D hotkey-overlay-title="Run fuzzel" { spawn "fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the screen (hyprlock)" { spawn "hyprlock"; }
     Mod+Z hotkey-overlay-title="Run hyprpicker" { spawn "hyprpicker" "-a" "-f" "hex"; }
-    Mod+B hotkey-overlay-title="Run wlsunset" { spawn-sh "wlsunset -t 2500"; }
-    Mod+Shift+B hotkey-overlay-title="Kill wlsunset" { spawn-sh "pkill wlsunset"; }
+    Mod+B hotkey-overlay-title="Run gammastep" { spawn-sh "gammastep -O 2000"; }
+    Mod+Shift+B hotkey-overlay-title="Kill wlsunset" { spawn-sh "pkill gammastep"; }
     Mod+P hotkey-overlay-title="Run rofimoji" { spawn-sh "rofimoji -a type copy -f math.csv emojis"; }
 
     // special keys
