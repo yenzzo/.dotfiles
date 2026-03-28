@@ -15,7 +15,7 @@ return {
         operators = false,
         folds = true,
       },
-      contrast = "hard", -- Options: "hard", "soft", or "" (default)
+      contrast = "", -- Options: "hard", "soft", or "" (default)
       transparent_mode = false,
     })
 
