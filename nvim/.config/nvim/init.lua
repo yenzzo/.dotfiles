@@ -3,6 +3,7 @@ vim.g.mapleader = ""
 vim.g.maplocalleader = ""
 vim.keymap.set({ "n", "v" }, "<Space>", "<Nop")
 
+-- I GUESS this sets up lazy.nvimvim
 require("config.lazy")
 
 -- clipboard options
