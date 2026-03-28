@@ -18,8 +18,8 @@ layout {
 
     focus-ring {
         on 
-        width 2 
-        active-color "#ebdbb2"
+        width 4 
+        active-color "#282828"
         urgent-color "#CC241D"
         // it doesn't even make sense to add this tho
         inactive-color "#665c54"
@@ -35,10 +35,10 @@ layout {
 
     shadow {
         on
-        softness 3 
+        softness 0 
         spread 2 
-        offset x=15 y=15
-        //color "#32302F"
+        offset x=10 y=10
+        color "#282828"
         //inactive-color "#eaeaea"
         draw-behind-window true
     }
