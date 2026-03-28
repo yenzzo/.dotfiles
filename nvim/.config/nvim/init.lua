@@ -15,5 +15,5 @@ local o = vim.o
 o.shiftwidth = 3
 
 -- set lazy.nvim gruvbox plugin theme
-vim.o.background = "dark"
+vim.o.background = "light"
 vim.cmd([[colorscheme gruvbox]])
