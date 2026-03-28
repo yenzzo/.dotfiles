@@ -1,8 +1,8 @@
 {
    "name": "top_bar",
    "layer": "top",
-   "position": "left",
-   "margin-top": 0,
+   "position": "top",
+   "margin-top": 10,
    "margin-left": 10,
    "margin-right": 10,
    "margin-bottom": 1,
@@ -10,31 +10,30 @@
    "reload_style_on_change": true,
 
    "modules-left": [
-      "custom/arch",
       "niri/workspaces"
    ],
 
    "modules-center": [
-      "clock"
+      "niri/window"
    ],
 
    "modules-right": [
-      "tray"
+      "clock"
    ],
 
    "temperature": {
       "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
       "critical-thresold": 82,
       "format": "{temperatureC}°C ",
-      "interval": 1,
+      "interval": 1
    },
 
    "cpu": {
-      "format": "{usage}% ",
+      "format": "{usage}% "
    },
 
    "memory": {
-      "format": "{}% ",
+      "format": "{}% "
    },
 
    "niri/workspaces": {
@@ -46,12 +45,12 @@
    },
 
    "hyprland/workspaces": {
-      "format": "{name}",
+      "format": "{name}"
    },
 
    "niri/window": {
+      "format": "{title}",
       "rewrite": {
-         "": "niri"
       }
    },
 
@@ -64,6 +63,10 @@
    "custom/arch": {
       "format": "󰣇",
       "tooltip-format": "this is arch btw"
+   },
+
+   "custom/divider": {
+      "format": ""
    },
 
    "network": {
@@ -81,7 +84,7 @@
    },
 
    "clock": {
-      "format": " {:%I:%M}",
+      "format": "{:%I:%M %p}",
       "format-alt": "{:%A, %d %b, %Y}",
       "tooltip-format": "<tt><small>{calendar}</small></tt>",
       "calendar": {
@@ -101,7 +104,7 @@
       "actions": {
       "on-click-middle": "mode",
       "on-scroll-up": "shift_up",
-      "on-scroll-down": "shift_down",
+      "on-scroll-down": "shift_down"
       }
    },
 
@@ -128,7 +131,7 @@
    }, 
 
    "tray": {
-      "icon-size": 20,
+      "icon-size": 16,
       "spacing": 5,
       "show-passive-items": true
    }

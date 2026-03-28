@@ -4,30 +4,37 @@
 
 .top_bar {
    font-size: 18px;
-   font-family: Hurmit Nerd Font;
+   font-family: Iosevka Nerd Font;
    font-weight: bold;
 }
 
 /* DEPRECATED */
 .bottom_bar {
    font-size: 16px;
-   font-family: Hurmit Nerd Font;
+   font-family: JetBrainsMono Nerd Font;
    font-weight: bold;
 }
 
 /* TOP BAR!!! */
 /* bar */
 window.top_bar#waybar {
-   background-color: #282828;
-   border-right: 3px solid #d5c4a1;
-   border-bottom: 3px solid #d5c4a1;
+   background: #fbf1c7;
+   border: 3px solid #282828;
+   border-bottom: 5px solid #282828;
+   border-right: 5px solid #282828;
 }
 
-/* custom-arch module */
+/* custom arch module */
 window.top_bar #custom-arch {
-   padding: 0px 18px 0px 12px;
+   margin: 0px 10px 0px 0px;
+   padding: 0px 15px 0px 5px; 
    color: #458588;
-   font-size: 20px;
+}
+
+/* custom divider module */
+window.top_bar #custom-divider {
+   opacity: .8;
+   margin-left: 10px;
 }
 
 /* network module */
@@ -36,70 +43,59 @@ window.top_bar #network {
 
 /* workspace module */
 window.top_bar #workspaces {
-   border-bottom: 3px solid #d5c4a1;
    padding: 0px 3px;
-   margin: 0px 5px;
+   margin: 5px 0px;
 }
 
 /* workspace buttons */
 window.top_bar #workspaces button {
-   color: #ebdbb2;
+   color: #3c3836;
    padding: 0px 4px;
    margin: 0px 4px;
    min-width: 0;
-   border-radius: 0px;
+   font-size: 18px;
 }
 
 /* active workspace button */
 window.top_bar #workspaces button.active {
-   color: #ebdbb2;
-   border-top: 3px solid #d5c4a1;
+   color: #3c3836;
+   padding-bottom: 2px;
+   font-weight: 900;
 }
 
 /* niri/window module */
 window.top_bar #window {
-   padding-left: 15px;
-   padding-right: 15px;
-   padding: 0px 15px 1px 15px;
-   color: #ebdbb2;
-   font-size: 16px;
+   color: #3c3836;
 }
 
 window.top_bar #clock {
-   color: #ebdbb2;
-   font-size: 16px;
+   color: #3c3836;
+   padding: 0px 18px 0px 0px;
 }
 
 
 /* memory module */
 window.top_bar #memory {
    padding: 0px 15px 0px 15px;
-   color: #ebdbb2;
-   font-size: 16px;
+   color: #3c3836;
 } 
 
 /* cpu module */
 window.top_bar #cpu {
    padding: 0px 5px 0px 15px;
-   color: #ebdbb2;
-   font-size: 16px;
+   color: #3c3836;
 }
 
 /* temperature module */
 window.top_bar #temperature {
    padding: 0px 5px 0px 15px;
-   color: #ebdbb2;
-   font-size: 16px;
+   color: #3c3836;
 }
 
 /* tray module */
 window.top_bar #tray {
-   padding: 10px 15px 10px 5px;
-   color: #ebdbb2;
-}
-
-window.top_bar #tray widget {
-   color: #ebdbb2
+   padding: 0px 5px;
+   color: #282828;
 }
 
 /* DEPRECATED */
