@@ -3,7 +3,7 @@
 }
 
 .top_bar {
-   font-size: 18px;
+   font-size: 20px;
    font-family: Iosevka Nerd Font;
    font-weight: bold;
 }
@@ -51,9 +51,8 @@ window.top_bar #workspaces {
 window.top_bar #workspaces button {
    color: #3c3836;
    padding: 0px 4px;
-   margin: 0px 4px;
+   margin: 0px 3px;
    min-width: 0;
-   font-size: 18px;
 }
 
 /* active workspace button */
