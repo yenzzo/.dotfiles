@@ -12,11 +12,7 @@
    "modules-left": [
       "hyprland/workspaces"
    ],
-
-   "modules-center": [
-      "hyprland/window"
-   ],
-
+   
    "modules-right": [
       "clock"
    ],
@@ -50,8 +46,6 @@
 
    "niri/window": {
       "format": "{title}",
-      "rewrite": {
-      }
    },
 
    "hyprland/window": {
@@ -65,10 +59,6 @@
       "tooltip-format": "this is arch btw"
    },
 
-   "custom/divider": {
-      "format": ""
-   },
-
    "network": {
       "format-wifi": " ",
       "format-ethernet": "󰈀",
@@ -77,10 +67,6 @@
       "tooltip-format": "{essid}\n{ipaddr}/{cidr}",
       "tooltip": true,
       "on-click": "kitty -e nmtui"
-   },
-
-   "niri/language": {
-      "format": "󰣩 {}"
    },
 
    "clock": {

@@ -1,111 +1,48 @@
-/* default */
 * {
-}
-
-.top_bar {
+   border-radius: 12px;
+   border: none;
    font-size: 20px;
    font-family: Iosevka Nerd Font;
    font-weight: bold;
-}
-
-/* DEPRECATED */
-.bottom_bar {
-   font-size: 16px;
-   font-family: JetBrainsMono Nerd Font;
-   font-weight: bold;
-}
-
-/* TOP BAR!!! */
-/* bar */
-window.top_bar#waybar {
-   background: #fbf1c7;
-   border: 3px solid #282828;
-   border-bottom: 5px solid #282828;
-   border-right: 5px solid #282828;
-}
-
-/* custom arch module */
-window.top_bar #custom-arch {
-   margin: 0px 10px 0px 0px;
-   padding: 0px 15px 0px 5px; 
-   color: #458588;
-}
-
-/* custom divider module */
-window.top_bar #custom-divider {
-   opacity: .8;
-   margin-left: 10px;
-}
-
-/* network module */
-window.top_bar #network {
-}
-
-/* workspace module */
-window.top_bar #workspaces {
-   padding: 0px 3px;
-   margin: 5px 0px;
-}
-
-/* workspace buttons */
-window.top_bar #workspaces button {
-   color: #3c3836;
-   padding: 0px 4px;
-   margin: 0px 3px;
-   min-width: 0;
-}
-
-/* active workspace button */
-window.top_bar #workspaces button.active {
-   color: #3c3836;
-   padding-bottom: 2px;
-   font-weight: 900;
-}
-
-/* niri/window module */
-window.top_bar #window {
-   color: #3c3836;
-}
-
-window.top_bar #clock {
-   color: #3c3836;
-   padding: 0px 18px 0px 0px;
-}
-
-
-/* memory module */
-window.top_bar #memory {
-   padding: 0px 15px 0px 15px;
-   color: #3c3836;
-} 
-
-/* cpu module */
-window.top_bar #cpu {
-   padding: 0px 5px 0px 15px;
-   color: #3c3836;
-}
-
-/* temperature module */
-window.top_bar #temperature {
-   padding: 0px 5px 0px 15px;
-   color: #3c3836;
-}
-
-/* tray module */
-window.top_bar #tray {
-   padding: 0px 5px;
    color: #282828;
 }
 
-/* DEPRECATED */
-/* BOTTOM BAR!!! */
-/* bar */
-window.bottom_bar#waybar {
-   border: 2px solid #EBDBB2;
-   padding-left: 6px;
+window#waybar {
+   background: transparent;
 }
 
-/* tray module */
-window.bottom_bar #tray {
-   padding: 10px 15px 10px 15px;
+.modules-left {
+   padding: 0px 0px 0px 0px;   
+   margin: 10px 10px; 
+
+   background: #fbf1c7;
+
+   border: 3px solid #282828; 
+   box-shadow: 8px 8px #282828;
+}
+
+.modules-right {
+   padding: 0px 10px 0px 10px;   
+   margin: 10px 10px; 
+
+   background: #fbf1c7;
+
+   border: 3px solid #282828; 
+   box-shadow: 8px 8px #282828;
+}
+
+#clock {
+   padding: 0px 10px 0px 10px;
+}
+
+#cpu {
+   padding: 0px 10px;
+}
+
+#temperature {
+   padding: 0px 10px;
+}
+
+#memory {
+   padding: 0px 10px;
 }
