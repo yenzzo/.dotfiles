@@ -25,12 +25,12 @@ This repository contains my main computer dotfiles.
 <details>
 	<summary><b>Previous</b></summary>
 		<details>
-    		<summary><b>1</b></summary>
-    			<img align="center" src="screenshot-1.png">
+    		<summary><b>2</b></summary>
+    			<img align="center" src="screenshot-2.png">
 		</details>
 		<details>
-			<summary><b>2</b></summary>
-				<img align="center" src="screenshot-2.png">
+			<summary><b>1</b></summary>
+				<img align="center" src="screenshot-1.png">
 		</details>
 </details>
 
