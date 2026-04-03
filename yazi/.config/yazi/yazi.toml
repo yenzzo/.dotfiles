@@ -1,6 +1,6 @@
 [opener]
    image_open = [
-      { run = 'sxiv "$@"', orphan = true },
+      { run = 'feh "$@"', orphan = true },
    ]
 
    file_edit = [
