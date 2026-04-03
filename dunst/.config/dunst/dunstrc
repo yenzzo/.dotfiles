@@ -1,90 +1,72 @@
 [global]
-    ### Display ###
+   ### Display ###
+   
+   follow = mouse # show notifications at mouse position
 
-    # Which monitor should the notifications be displayed on.
-   #   monitor = 0
+   ### Geometry ###
 
-    # Display notification on focused monitor.  Possible modes are:
-        mouse: follow mouse pointer
-    #   keyboard: follow window with keyboard focus
-    #   none: don't follow anything
-    #
-    # "keyboard" needs a window manager that exports the
-    # _NET_ACTIVE_WINDOW property.
-    # This should be the case for almost all modern window managers.
-    #
-    # If this option is set to mouse or keyboard, the monitor option
-    # will be ignored.
-    follow = none
+   # The width of the window, excluding the frame.
+   width = (0, 300) 
 
+   # The maximum height of a single notification, excluding the frame.
+   height = (0,300)
 
-    ### Geometry ###
+   # Position the notification in the top center corner
+   origin = top-center
 
-    # The width of the window, excluding the frame.
-    # dynamic width from 0 to 300
-    # width = (0, 300)
-    # constant width of 300
-    width = (0, 300) 
+   # Offset from the origin
+   # NOTE: Dunst from version 1.11 and older use this alternative notation
+   # offset = 10x50
+   offset = (0, -50)
 
-    # The maximum height of a single notification, excluding the frame.
-    height = (0,300)
+   # Scale factor. It is auto-detected if value is 0.
+   scale = 0
 
-    # Position the notification in the top center corner
-    origin = top-center
+   # Maximum number of notification (0 means no limit)
+   notification_limit = 5 
 
-    # Offset from the origin
-    # NOTE: Dunst from version 1.11 and older use this alternative notation
-    # offset = 10x50
-    offset = (0, 20)
+   ### Progress bar ###
 
-    # Scale factor. It is auto-detected if value is 0.
-    scale = 0
+   # Turn on the progess bar. It appears when a progress hint is passed with
+   # for example dunstify -h int:value:12
+   progress_bar = true
 
-    # Maximum number of notification (0 means no limit)
-    notification_limit = 20
+   # Set the progress bar height. This includes the frame, so make sure
+   # it's at least twice as big as the frame width.
+   progress_bar_height = 10
 
-    ### Progress bar ###
+   # Set the frame width of the progress bar
+   progress_bar_frame_width = 2
 
-    # Turn on the progess bar. It appears when a progress hint is passed with
-    # for example dunstify -h int:value:12
-    progress_bar = true
+   # Set the minimum width for the progress bar
+   progress_bar_min_width = 130
 
-    # Set the progress bar height. This includes the frame, so make sure
-    # it's at least twice as big as the frame width.
-    progress_bar_height = 10
+   # Set the maximum width for the progress bar
+   progress_bar_max_width = 300
 
-    # Set the frame width of the progress bar
-    progress_bar_frame_width = 2
+   # Corner radius for the progress bar. 0 disables rounded corners.
+   progress_bar_corner_radius = 3
 
-    # Set the minimum width for the progress bar
-    progress_bar_min_width = 130
+   # Corner radius for the icon image.
+   icon_corner_radius = 0
 
-    # Set the maximum width for the progress bar
-    progress_bar_max_width = 300
+   # Show how many messages are currently hidden (because of
+   # notification_limit).
+   indicate_hidden = yes
 
-    # Corner radius for the progress bar. 0 disables rounded corners.
-    progress_bar_corner_radius = 3
+   # The transparency of the window.  Range: [0; 100].
+   # This option will only work if a compositing window manager is
+   # present (e.g. xcompmgr, compiz, etc.). (X11 only)
+   transparency = 50
 
-    # Corner radius for the icon image.
-    icon_corner_radius = 0
-
-    # Show how many messages are currently hidden (because of
-    # notification_limit).
-    indicate_hidden = yes
-
-    # The transparency of the window.  Range: [0; 100].
-    # This option will only work if a compositing window manager is
-    # present (e.g. xcompmgr, compiz, etc.). (X11 only)
-    transparency = 50
-
-    # Draw a line of "separator_height" pixel height between two
-    # notifications.
-    # Set to 0 to disable.
-    # If gap_size is greater than 0, this setting will be ignored.
+   # Draw a line of "separator_height" pixel height between two
+   # notifications.
+   # Set to 0 to disable.
+   # If gap_size is greater than 0, this setting will be ignored.
     separator_height = 2
 
-    # Padding between text and separator.
-    padding = 8
+   # Padding between text and separator.
+   padding = 8
 
     # Horizontal padding.
     horizontal_padding = 8
@@ -97,7 +79,7 @@
     frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#504945"
+    frame_color = "#282828"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -125,7 +107,7 @@
 
     ### Text ###
 
-    font = "FiraCode Nerd Font SemiBold 12"
+    font = "Iosevka Nerd Font SemiBold 18"
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -324,9 +306,10 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#32302f"
-    foreground = "#ebdbb2"
-    timeout = 5
+    background = "#fbf1c7"
+    foreground = "#282828"
+    frame_color = "#282828"
+    timeout = 10 
     override_pause_level = 30
     # Icon for notifications with normal urgency, uncomment to enable
     #default_icon = /path/to/icon
