@@ -41,4 +41,4 @@ This repository contains my main computer dotfiles.
 
 > I took inspiration from other's .dotfiles.
 
-> I use custom shaders in hyprland. Thus the colors are slightly different.
+> I may or may not use custom shaders in Hyprland. Thus the colors may or may not be slightly 'brighter', if you will.
