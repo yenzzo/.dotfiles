@@ -35,6 +35,7 @@
       { url = "*.json", use = [ "file_edit" ] },
       { url = "*.css", use = [ "file_edit" ] },
       { url = "*.txt", use = [ "file_edit" ] },
+      { url = "*.cpp", use = [ "file_edit" ] },
 
       # images
       { url = "*.png", use = [ "image_open" ] },
