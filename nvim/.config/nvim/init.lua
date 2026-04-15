@@ -17,3 +17,6 @@ o.shiftwidth = 3
 -- set lazy.nvim gruvbox plugin theme
 vim.o.background = "light"
 vim.cmd([[colorscheme gruvbox]])
+
+-- disable mouse xD
+vim.opt.mouse = ""
