@@ -23,7 +23,7 @@ window#waybar {
 }
 
 .modules-right {
-   padding: 0px 10px 0px 10px;   
+   padding: 0px 10px 0px 0px;   
    margin: 10px 10px; 
 
    background: #fbf1c7;
