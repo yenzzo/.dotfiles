@@ -39,6 +39,6 @@ This repository contains my main computer dotfiles.
 
 > The screenshots presented in here are PROBABLY outdated. 
 
-> I took inspiration from other's .dotfiles.
+> I took inspiration from other's .dotfiles. Didn't credit though, because I don't remember.
 
 > I may or may not use custom shaders in Hyprland. Thus the colors may or may not be slightly 'brighter', if you will.
